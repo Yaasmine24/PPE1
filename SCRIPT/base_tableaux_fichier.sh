@@ -52,14 +52,14 @@ while read -r URL; do
 
 	if [[ $code -eq 200 ]]
 	then
-		dump=$(lynx -dump -nolist -assume_charset=$charset -display_charset=$charset $URL)
-		if [[ $charset -ne "UTF-8" && -n "$dump" ]]
+		dump=$(lynx -dump -nolist -assume_charset=$charset -display_charset=$charset $URL) #pour avoir le bon encodage
+		if [[ $charset -ne "UTF-8" && -n "$dump" ]] #-n "$dump"  ==> means qu'elle contient qlq chose, on s'assure qu'il y a qlq chose dans le dump
 		then
-			dump=$(echo $dump | iconv -f $charset -t UTF-8//IGNORE)
+			dump=$(echo $dump | iconv -f $charset -t UTF-8//IGNORE) #pour le convertir
 		fi
 	else
 		echo -e "\tcode différent de 200 utilisation d'un dump vide"
-		dump=""
+		dump="" #on met des chaines vides pcq on veut juste un message d'erreur
 		charset=""
 	fi
 
