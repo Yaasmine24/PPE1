@@ -1,0 +1,305 @@
+   #home
+
+   (BUTTON) Fermer
+   ____________________ (BUTTON) Rechercher
+   Quel type de contenu souhaitez-vous chercher ?
+   (BUTTON) Actualités (BUTTON) Toutes documentations
+
+   (BUTTON)
+
+     * Droit du travail
+          + Droit du travail
+          + (BUTTON) Retour
+          + Documentations
+          + Conventions collectives
+          + Services par téléphone
+          + Affiches et registres obligatoires
+          + Applicatifs RH
+     * Représentation du personnel
+          + Représentation du personnel
+          + (BUTTON) Retour
+          + Documentations
+          + Services par téléphone
+          + Support de communication
+     * Santé & sécurité
+          + Santé & sécurité
+          + (BUTTON) Retour
+          + Documentations
+          + Supports de communication
+     * Besoin d’aide ?
+          + Service client : 04 50 64 08 08
+          + Nous contacter
+          + FAQ
+
+     * Actualités
+     * Newsletters
+
+     * Droit du travail & RH
+     * Représentation du personnel
+     * Santé & Sécurité
+
+   (BUTTON) header.links.cart.label
+   (BUTTON) Applicatifs RH
+     * Éditions Tissot
+     * BDESE online
+     * Lumio RH
+
+   Connexion
+     * Droit du travail & RH
+     * Représentation du personnel
+     * Santé & Sécurité
+
+     *
+     * Guide du droit du travail
+     * Lexique du droit du travail
+     * Grève : définition - Lexique droit du travail
+
+Définition de grève
+
+   La grève est la cessation collective et concertée du travail par tout
+   ou partie des salariés d’une entreprise en vue d’obtenir satisfaction
+   sur des revendications professionnelles. Le droit de grève est garanti
+   par la Constitution. Le fait de faire grève ne peut en aucun cas donner
+   lieu à sanctions. Si le salarié ne peut pas venir travailler ou arrive
+   en retard, ou même part en avance, il ne peut pas être sanctionné mais
+   il est important qu’il en informe l’employeur.
+
+   Seuls les actes commis au cours de la grève mais détachés de l’exercice
+   du droit de grève proprement dit (telles des violences) sont
+   sanctionnables.
+
+   Relativement à la rémunération, l’employeur n’a pas obligation de payer
+   les heures d’absence.
+
+   L’employeur peut mettre en place le télétravail prévu par accord
+   collectif ou, à défaut, prévu dans le cadre d’une charte élaborée par
+   l'employeur après avis du CSE.
+
+Définitions connexes
+
+          Durée et temps de travail
+
+Durée maximale du travail
+
+          Limite fixée par la loi en matière de durée du travail,
+          indépendamment de la durée légale. Il s’agit de maxima qui ne
+          doivent pas être dépassés, même en cas …
+
+          Durée et temps de travail
+
+Forfait heures
+
+          Le forfait en heures est hebdomadaire, mensuel ou annuel. La
+          forfaitisation de la durée du travail doit faire l'objet de
+          l'accord du salarié et d'une …
+
+          Durée et temps de travail
+
+Forfait jours
+
+          Depuis le 1^er janvier 2022, la retraite progressive s’applique,
+          sous certaines conditions, aux assurés qui exercent une activité
+          à temps partiel ou à temps …
+
+          Durée et temps de travail
+
+Heures complémentaires
+
+          Les heures complémentaires sont les heures effectuées par un
+          salarié à temps partiel au-delà de la durée normale prévue par
+          son contrat de travail. Elles ne …
+
+          Durée et temps de travail
+
+Heures d’astreinte
+
+          Les heures d'astreintes correspondent une période pendant
+          laquelle le salarié, sans être sur son lieu de travail et sans
+          être à la disposition permanente et …
+
+          Durée et temps de travail
+
+Heures d'équivalence
+
+          Les heures d’équivalence ne sont autorisées que dans certains
+          secteurs d’activité, limités et désignés par décrets.
+          Globalement, ces décrets concernent les …
+
+Définitions populaires
+
+          Santé et sécurité
+
+Qualité de vie et des conditions de travail (QVCT)
+
+          La notion de qualité de vie au travail (QVT) correspond à un
+          sentiment de bien-être au travail perçu collectivement et
+          individuellement qui englobe …
+
+          Absences, congés, maladies et accidents
+
+Absence non rémunérée
+
+          Qu’elle soit autorisée ou pas, en principe, une absence ne doit
+          donner lieu à rémunération que si elle correspond à un motif
+          prévu par la loi ou la convention …
+
+          Embauche et contrat de travail
+
+Accroissement temporaire d'activité
+
+          L’accroissement temporaire d’activité est l’un des motifs de
+          recours au travail temporaire (CDD et intérim), qui renvoie
+          concrètement à l’une des situations …
+
+          Embauche et contrat de travail
+
+Agent de maîtrise
+
+          Un agent de maîtrise est un salarié faisant partie d’une
+          catégorie de personnel de production dotée de responsabilités
+          d’encadrement du personnel ouvrier au …
+
+          Salaire, primes et indemnités
+
+Accessoires de salaire
+
+          Les accessoires de salaire désignent les différentes primes,
+          avantages en nature, frais professionnels et indemnités versées
+          par l’employeur en sus des …
+
+          Divers
+
+Tiers ou tierce personne
+
+          Le tiers ou la tierce personne est par rapport à une relation
+          duale comme celle liant le salarié et l’employeur par exemple,
+          ce terme désigne toute personne …
+
+          Conditions particulières de travail
+
+Salarié
+
+          Le salarié se définit comme une personne physique liée à un
+          employeur par la conclusion d’un contrat de travail et par une
+          relation de subordination …
+
+          Salaire, primes et indemnités
+
+Rappel de salaire
+
+          Le rappel de salaire correspond aux éléments de salaire intégrés
+          à des bulletins de paie postérieurs à la période de travail
+          correspondante. Après application …
+
+          Salaire, primes et indemnités
+
+Prime d'assiduité
+
+          La prime d’assiduité a pour objet de récompenser la stabilité
+          des salariés dans l’entreprise, et de les inciter à ne pas
+          s’absenter. Elle n’est pas la …
+
+          Embauche et contrat de travail
+
+Employés, techniciens et agents de maîtrise (ETAM)
+
+          Les employés, techniciens et agents de maîtrise (ETAM) sont des
+          catégories de salariés dont le statut est équivalent à celui des
+          ouvriers ou à un niveau …
+
+   Glossaire par lettre
+     * A
+     * B
+     * C
+     * D
+     * E
+     * F
+     * G
+     * H
+     * I
+     * J
+     * L
+     * M
+     * N
+     * O
+     * P
+     * Q
+     * R
+     * S
+     * T
+     * U
+     * V
+
+   Glossaire par catégorie
+     * Absences, congés, maladies et accidents
+     * Accords collectifs et usages d'entreprise
+     * Avantages en nature et frais professionnels
+     * Conditions particulières de travail
+     * Contrôles et contentieux
+     * Cotisations et contributions sociales
+     * Divers
+     * Durée et temps de travail
+     * Embauche et contrat de travail
+     * Evolution de l'entreprise
+     * Formation professionnelle
+     * Pouvoir disciplinaire de l'employeur
+     * Protection des salariés
+     * Protection sociale et sécurité sociale
+     * Représentants du personnel
+     * Retraite - vieillesse
+     * Rupture du contrat de travail
+     * Salaire, primes et indemnités
+     * Santé et sécurité
+
+   Top 5 des téléchargements en droit du travail
+     * (BUTTON) Sanctionner le salarié : 10 points clés pour sécuriser vos
+       documents
+     * (BUTTON) Calcul du nombre de jours de repos 2022 - Salariés en
+       forfait jours
+     * (BUTTON) Questions-Réponses du ministère du Travail : l'entretien
+       professionnel (30 septembre 2022)
+     * (BUTTON) RGPD, email, caméra… 25 idées reçues sur le contrôle des
+       salariés
+     * (BUTTON) Paie 2022 : les principaux changements à connaître
+
+   2 avenue du Pré Closet
+   CS 80109
+   74941 Annecy Cedex
+   (BUTTON) Twitter (BUTTON) Facebook (BUTTON) Linkedin
+   À propos
+     * À propos
+     * Partenariats et publicités
+     * Espace presse
+     * Sondages et études
+     * Recrutement et auteurs
+     * Guide du droit du travail
+
+   Produits des Éditions Tissot
+     * BDESE online BDESE online
+     * Lumio RH Lumio RH
+
+   Nous soutenons
+     * Un toit pour les abeilles Un toit pour les abeilles
+
+   Besoin d’aide ?
+     * Service client : 04 50 64 08 08
+     * Nous contacter
+     * FAQ
+
+   © Éditions Tissot2022
+     * Informations légales
+     * Conditions Générales de vente
+     * Politique sur la protection des données personnelles
+
+   AccueilActualités
+   (BUTTON) Applicatifs RH
+     * Éditions Tissot
+     * BDESE online
+     * Lumio RH
+
+   Connexion
+   (BUTTON)
+   Félicitations !
+
+   Votre abonnement à l'Actualité Premium a bien été enregistré
+   (BUTTON) Consulter mon contenu

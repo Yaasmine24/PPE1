@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Définition de grève | Dictionnaire français</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<script type="205780f7a9ea73dea297baf7-text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","errorBeacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-c987760640084f16d71","applicationID":"183693788","transactionName":"JhpeRQoXDl4EFExFWBcRQx4cEQFGCAkNXFYMB1VuCxANRQ==","queueTime":0,"applicationTime":74,"agent":""}</script>
+<script type="205780f7a9ea73dea297baf7-text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.eu01.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-c987760640084f16d71",applicationID:"183693788"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="description" content="Définition de grève : dictionnaire, étymologie, phonétique, citations littéraires, synonymes et antonymes de « grève »">
+<link rel="canonical" href="https://www.lalanguefrancaise.com/dictionnaire/definition/greve" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.lalanguefrancaise.com/assets/favicon-5183ad07de70c72606983b28310216f6c47d78d94d2fd5d37524f9f01ded28a0.png" />
+<link rel="manifest" href="/manifest.json">
+<meta name="keywords" content="grève,définition grève,grève définition,citation grève,synonyme grève, antonyme grève,phonétique grève,étymologie grève,vidéos grève,traduction grève">
+
+<meta property="og:title" content="Définition de grève | Dictionnaire français">
+<meta property="og:url" content="https://www.lalanguefrancaise.com/dictionnaire/definition/greve">
+<meta property="og:image" content="https://admin.lalanguefrancaise.com/wp-content/uploads/dictionnaire/greve.png">
+<meta property="og:description" content="Définition de grève : dictionnaire, étymologie, phonétique, citations littéraires, synonymes et antonymes de « grève »">
+<meta property="og:site_name" content="La langue française">
+<meta property="og:type" content="article">
+<meta property="article:publisher" content="https://www.facebook.com/lalanguefr/">
+<meta property="fb:app_id" content="688270328024906">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@LLfrancaise">
+<meta name="twitter:title" content="Définition de grève | Dictionnaire français">
+<meta name="twitter:description" content="Définition de grève : dictionnaire, étymologie, phonétique, citations littéraires, synonymes et antonymes de « grève »">
+<meta name="twitter:creator" content="@LLfrancaise">
+<meta name="twitter:image" content="https://admin.lalanguefrancaise.com/wp-content/uploads/dictionnaire/greve.png">
+<meta property="twitter:domain" content="www.lalanguefrancaise.com">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0LJnjK20AM_qMxLsGVKj8BDS5xNy7mmkzQ1AgFAlElaiU8OuUEm2y1gByeKqI61Bx2viJLhdPM9bfBQMmfVuWg" />
+<link rel="alternate" type="application/rss+xml" title="Flux RSS | La langue française" href="https://www.lalanguefrancaise.com/flux.rss" />
+
+<script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.lalanguefrancaise.com"
+      },{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "Dictionnaire",
+				"item": "https://www.lalanguefrancaise.com/dictionnaire"
+			},{
+				"@type": "ListItem",
+				"position": 3,
+				"name": "Définitions du mot « grève »",
+				"item": "https://www.lalanguefrancaise.com/dictionnaire/definition/greve"
+			}]
+		}</script><script type="application/ld+json">
+		{
+				"@context": "http://schema.org",
+				"@type": "Article",
+				"mainEntityOfPage": {
+						"@type": "WebPage",
+						"@id": "https://www.lalanguefrancaise.com/dictionnaire/definition/greve"
+				},
+				"headline": "Grève : définition de « grève » | La langue française",
+				"datePublished": "2020-06-25 21:56:47 UTC",
+				"dateModified": "2022-10-03 10:19:53 UTC",
+				"author": {
+						"@type": "Person",
+						"name": "La langue française"
+				},
+				"description": "Définition de grève : dictionnaires de référence, étymologie, phonétique, citations littéraires, synonymes et antonymes de « grève »",
+				"image": {
+						"@type": "ImageObject",
+						"url": "https://admin.lalanguefrancaise.com/wp-content/uploads/dictionnaire/greve.png",
+						"width": 1024,
+						"height": 526
+				},
+				"publisher": {
+						"@type": "Organization",
+						"name": "La langue française",
+						"logo": {
+								"@type": "ImageObject",
+								"url": "https://www.lalanguefrancaise.com/wp-content/uploads/2018/01/cropped-favicon-192x192.png",
+								"width": 192,
+								"height": 192
+						}
+				}
+		}
+		</script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="preload" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" media="all" href="https://www.lalanguefrancaise.com/assets/application-3b7de95689e350882b141b0069b95bc2a143282caba655f0ea2d6c355ddc0c64.css" data-turbolinks-track="reload" />
+<script src="https://www.lalanguefrancaise.com/packs/js/application-4fc36a6702795e015832.js" data-turbolinks-track="reload" type="205780f7a9ea73dea297baf7-text/javascript"></script>
+
+<script type="205780f7a9ea73dea297baf7-text/javascript" async='async' src='https://cdn-a.yieldlove.com/v2/yieldlove.js?lalanguefrancaise.com'></script>
+<script async='async' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js' type="205780f7a9ea73dea297baf7-text/javascript"></script>
+<script type="205780f7a9ea73dea297baf7-text/javascript">
+
+				var googletag = googletag || {};
+
+				googletag.cmd = googletag.cmd || [];
+
+				googletag.cmd.push(function() {
+
+					googletag.pubads().disableInitialLoad();
+
+					googletag.enableServices();
+
+				});
+
+			</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1NHKT9P60Z" type="205780f7a9ea73dea297baf7-text/javascript"></script>
+<script type="205780f7a9ea73dea297baf7-text/javascript">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-1NHKT9P60Z');
+		</script>
+</head>
+<body>
+<header id="header-container">
+<div>
+<div>
+<div id="header-social-icons">
+<span>
+<a title="Nous suivre sur Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/lalanguefr">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="205780f7a9ea73dea297baf7-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" fill="currentColor" data-original="#000000" style="" /></g></svg>
+</a>
+<a title="Nous suivre sur Twitter" target="_blank" rel="noopener" href="https://twitter.com/LLfrancaise">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="205780f7a9ea73dea297baf7-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z" fill="currentColor" data-original="#000000" style="" /></g></svg>
+</a>
+<a title="Nous suivre sur Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/lalangue_fr/">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="205780f7a9ea73dea297baf7-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m12.004 5.838c-3.403 0-6.158 2.758-6.158 6.158 0 3.403 2.758 6.158 6.158 6.158 3.403 0 6.158-2.758 6.158-6.158 0-3.403-2.758-6.158-6.158-6.158zm0 10.155c-2.209 0-3.997-1.789-3.997-3.997s1.789-3.997 3.997-3.997 3.997 1.789 3.997 3.997c.001 2.208-1.788 3.997-3.997 3.997z" fill="currentColor" data-original="#000000" style="" class="" /><path xmlns="http://www.w3.org/2000/svg" d="m16.948.076c-2.208-.103-7.677-.098-9.887 0-1.942.091-3.655.56-5.036 1.941-2.308 2.308-2.013 5.418-2.013 9.979 0 4.668-.26 7.706 2.013 9.979 2.317 2.316 5.472 2.013 9.979 2.013 4.624 0 6.22.003 7.855-.63 2.223-.863 3.901-2.85 4.065-6.419.104-2.209.098-7.677 0-9.887-.198-4.213-2.459-6.768-6.976-6.976zm3.495 20.372c-1.513 1.513-3.612 1.378-8.468 1.378-5 0-7.005.074-8.468-1.393-1.685-1.677-1.38-4.37-1.38-8.453 0-5.525-.567-9.504 4.978-9.788 1.274-.045 1.649-.06 4.856-.06l.045.03c5.329 0 9.51-.558 9.761 4.986.057 1.265.07 1.645.07 4.847-.001 4.942.093 6.959-1.394 8.453z" fill="currentColor" data-original="#000000" style="" class="" /><circle xmlns="http://www.w3.org/2000/svg" cx="18.406" cy="5.595" r="1.439" fill="currentColor" data-original="#000000" style="" class="" /></g></svg>
+</a>
+<a title="Nous suivre sur LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/company/la-langue-francaise">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<g xmlns="http://www.w3.org/2000/svg">
+<g>
+<rect y="160" width="114.496" height="352" fill="currentColor" data-original="#000000" style="" class="" />
+</g>
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="M426.368,164.128c-1.216-0.384-2.368-0.8-3.648-1.152c-1.536-0.352-3.072-0.64-4.64-0.896    c-6.08-1.216-12.736-2.08-20.544-2.08c-66.752,0-109.088,48.544-123.04,67.296V160H160v352h114.496V320    c0,0,86.528-120.512,123.04-32c0,79.008,0,224,0,224H512V274.464C512,221.28,475.552,176.96,426.368,164.128z" fill="currentColor" data-original="#000000" style="" class="" />
+</g>
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+<g>
+<circle cx="56" cy="56" r="56" fill="currentColor" data-original="#000000" style="" class="" />
+</g>
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>
+</a>
+<a title="Nous suivre sur TikTok" target="_blank" rel="noopener" href="https://www.tiktok.com/@lalanguefrancaise.com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2859 3333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" fill="currentColor" clip-rule="evenodd" width="16" height="16"><path d="M2081 0c55 473 319 755 778 785v532c-266 26-499-61-770-225v995c0 1264-1378 1659-1932 753-356-583-138-1606 1004-1647v561c-87 14-180 36-265 65-254 86-398 247-358 531 77 544 1075 705 992-358V1h551z" /></svg></a>
+<a title="Nous suivre sur YouTube" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UC0JP3WjJJXafhYmU3KBt4tw">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 310 310" fill="currentColor" xml:space="preserve" width="16" height="16">
+<g id="XMLID_822_">
+<path id="XMLID_823_" d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938
+		C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527
+		C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991
+		c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764
+		c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861
+		C204.394,157.263,202.325,160.684,199.021,162.41z" />
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</a>
+</span>
+</div>
+<div>
+<span>
+<a title="La langue française" width="300" height="50" href="/"><img alt="La langue française" width="300" height="50" src="https://www.lalanguefrancaise.com/assets/logo-llfr-2021-a5b9f65af0ccc6b7a8ca21c922904eb4a3578a6d5d8793117dfb4c6a3b1ff2e8.svg" /></a>
+</span>
+</div>
+<div id="login-menu">
+<span>
+<a title="Découvrir nos abonnements" class="connexion-cta" data-turbolinks="false" href="/abonnements">Abonnements</a>
+<a title="Connexion" class="connexion-cta" href="/utilisateurs/connexion">Connexion</a>
+<a title="S&#39;abonner" class="cta" href="/utilisateurs/inscription">S&#39;abonner</a>
+</span>
+</div>
+</div>
+<nav>
+<a title="Dictionnaire" href="/dictionnaire">Dictionnaire</a>
+<a title="Conjugaison" href="/conjugaison">Conjugaison</a>
+<a title="Orthographe" href="/orthographe">Orthographe</a>
+<a title="Expressions" href="/expressions">Expressions</a>
+<a title="Proverbes" href="/proverbes">Proverbes</a>
+<a title="Littérature" href="/litterature">Littérature</a>
+<a title="Grammaire" href="/grammaire">Grammaire</a>
+<a title="Linguistique" href="/linguistique">Linguistique</a>
+<a title="Quiz" href="/quiz">Quiz</a>
+<a title="Dictées" href="/dictees">Dictées</a>
+<a title="Cours orthographe" href="https://www.lalanguefrancaise.com/formations">Cours orthographe</a>
+</nav>
+</div>
+</header>
+<header id="header-reponsive-container" class="nav-down">
+<div>
+<div>
+<div id="header-hamburger-menu">
+<span>
+
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+<g>
+<path d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+</g>
+</g>
+<g>
+<g>
+<path d="M492,76H20C8.954,76,0,84.954,0,96s8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,76,492,76z" />
+</g>
+</g>
+<g>
+<g>
+<path d="M492,396H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20
+			C512,404.954,503.046,396,492,396z" />
+</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span>
+</div>
+<div>
+<span>
+<a title="La langue française" width="200" heigh="29" href="/"><img alt="La langue française" width="200" heigh="29" src="https://www.lalanguefrancaise.com/assets/logo-mobile-7aaac30fece9b89c09381f92a62e87adc206957b00ffea336cec70a163dadebc.svg" /></a>
+</span>
+</div>
+<div>
+<span id="login-responsive-menu">
+<a href="/utilisateurs/connexion"><img alt="Se connecter" title="Se connecter" width="18" height="18" src="https://www.lalanguefrancaise.com/assets/account-447efc035b8a51756ca6222552136901468e7398d89bfc42765f96d5ebff4218.svg" /></a>
+</span>
+</div>
+</div>
+<nav id="hamburger-nav">
+<a title="Dictionnaire" href="/dictionnaire">Dictionnaire</a>
+<a title="Conjugaison" href="/conjugaison">Conjugaison</a>
+<a title="Orthographe" href="/orthographe">Orthographe</a>
+<a title="Expressions" href="/expressions">Expressions</a>
+<a title="Proverbes" href="/proverbes">Proverbes</a>
+<a title="Littérature" href="/litterature">Littérature</a>
+<a title="Grammaire" href="/grammaire">Grammaire</a>
+<a title="Linguistique" href="/linguistique">Linguistique</a>
+<a title="Quiz" href="/quiz">Quiz</a>
+<a title="Dictées" href="/dictees">Dictées</a>
+<a title="Cours orthographe" href="https://www.lalanguefrancaise.com/formations">Cours orthographe</a>
+<div>
+<a title="S&#39;abonner" class="cta-blue" href="/utilisateurs/inscription">S&#39;abonner</a>
+</div>
+</nav>
+</div>
+</header>
+<div id="topad-center">
+
+<div id='div-gpt-ad-1407836140803-0'>
+<script type="205780f7a9ea73dea297baf7-text/javascript">
+								if (window.innerWidth >= 990) {
+									googletag.cmd.push(function() {
+										googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_970x250_1', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1407836140803-0').addService(googletag.pubads());
+										googletag.display('div-gpt-ad-1407836140803-0');
+									});
+								}
+
+								if (window.innerWidth < 990) {
+									googletag.cmd.push(function() {
+										googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_m_336x280_1', [[336, 280], [300, 250]], 'div-gpt-ad-1407836140803-0').addService(googletag.pubads());
+										googletag.display('div-gpt-ad-1407836140803-0');
+									});
+								}
+							</script>
+</div>
+</div>
+<form id="form-search" data-controller="autocomplete search" data-autocomplete-url-value="/search_dico" action="/dictionnaire/recherche" accept-charset="UTF-8" data-remote="true" method="get">
+<div id="search-container">
+<div>
+<input type="image" src="/assets/loupe.svg" alt="Recherche">
+<input type="text" name="q" data-autocomplete-target="input" placeholder="Rechercher les définitions d'un mot…" id="search-dico" data-path="/dictionnaire/recherche/" data-target="search.input" data-action="keydown->search#enterSearch" data-path="/dictionnaire/recherche/" />
+</div>
+<ul data-autocomplete-target="results" id="search-results"></ul>
+</div>
+</form>
+<div id="daily-header-container">
+<ul>
+<a href="/dictees/chanson-francaise-dictee">DICTÉE | Cette dictée est tirée d&#39;une chanson française très connue</a>
+<a title="Quiz : « calendrier de l’avent » ou « calendrier de l’avant » ?" href="/quiz/quiz-calendrier-avent">QUIZ | Quiz : « calendrier de l’avent » ou « calendrier de...</a>
+<a href="/dictionnaire/definition/trapeziste">MOT DU JOUR | Trapéziste</a>
+</ul>
+</div>
+<div id="main-container">
+<div>
+<p class="notice"></p>
+<p class="alert"></p>
+<article id="dictionnaire-article">
+<p id="breadscrumb"><a href="/">Accueil</a> > <a href="/dictionnaire">Dictionnaire</a> > Définitions du mot « grève »</p>
+<h1>Grève</h1>
+<div id="sommaire">
+<p>Sommaire</p>
+<ul id="toc-list">
+<li><a data-turbolinks="false" href="/dictionnaire/definition/greve#0">Définitions de « grève »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/greve#1">Étymologie de « grève »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/greve#2">Phonétique de « grève »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/greve#3">Citations contenant le mot « grève »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/greve#4">Images d&#39;illustration du mot « grève »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/greve#5">Traductions du mot « grève »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/greve#6">Synonymes de « grève »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/greve#7">Antonymes de « grève »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/greve#8">Combien de points fait le mot grève au Scrabble ?</a></li>
+</ul>
+</div>
+
+<script type="205780f7a9ea73dea297baf7-text/javascript">
+				googletag.cmd.push(function() {
+						if (window.innerWidth >= 960) {
+								googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_728x90_1', [728, 90], 'div-gpt-ad-1407836099467-0').addService(googletag.pubads());
+						}
+
+						if (window.innerWidth < 960) {
+								googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_m_300x250_2', [300, 250], 'div-gpt-ad-1407836099467-0').addService(googletag.pubads());
+						}
+
+						googletag.pubads().enableSingleRequest();
+						googletag.enableServices();
+				});
+		</script>
+<div class="adincontent">
+<div id='div-gpt-ad-1407836099467-0'>
+<script type="205780f7a9ea73dea297baf7-text/javascript">
+							googletag.cmd.push(function() { googletag.display('div-gpt-ad-1407836099467-0'); });
+					</script>
+</div>
+</div>
+<div id="container-word-variants-table">
+<table>
+<thead>
+<tr>
+<th><span class="sr-only">Variantes</span></th>
+<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+Singulier
+</th>
+<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+Pluriel
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Féminin
+</td>
+<td>
+grève
+</td>
+<td>
+grèves
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<section id="definition">
+<h2 id="0">Définitions de « grève »</h2>
+<div id="tlfi">
+<h3>Trésor de la Langue Française informatisé</h3>
+<div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div id="art39183">
+<h3 class="tlf_cvedette">
+<span class="tlf_cmot">GRÈVE<sup>1</sup>,</span> <span class="tlf_ccode">subst. fém.</span>
+</h3>
+<span class="tlf_cdefinition">Terrain plat et uni, généralement constitué de sable et de graviers, sis au bord d'un cours d'eau ou de la mer.</span> <span class="tlf_csyntagme"><i>Sauter, se briser, s'échouer, s'étaler sur la grève; amener, tirer, abandonner (qqc.) sur la grève; longer, galoper le long de la grève.</i></span> <span class="tlf_cexemple"><i>Le ruisseau s'étalait sur une longue grève plate, d'où émergeaient par places de gros galets noirs </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Moselly</span></span><span class="tlf_ctitre">, <i>Terres lorr.,</i></span><span class="tlf_cdate">1907</span>, p. 230).</span><span class="tlf_cexemple"><i>Une épave abandonnée par les flots sur la grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Queneau</span></span><span class="tlf_ctitre">, <i>Pierrot,</i></span><span class="tlf_cdate">1942</span>, p. 24).</span><span class="tlf_cexemple"><i>La mer qui bat les grèves de Rimini en s'y brisant répète le nom de Malatesta </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Montherl.</span></span><span class="tlf_ctitre">, <i>Malatesta,</i></span><span class="tlf_cdate">1946</span>, II, 4, p. 468) :</span><div class="tlf_tabulation"><span class="tlf_cexemple">Ils voulurent revoir la plage; ils redescendirent la valleuse; ils s'assirent devant la mer. Les flots d'une récente tempête avaient amené sur la <b>grève </b>des coquilles des profondeurs, des épaves et des lambeaux d'algue arrachés; les vagues encore gonflées étourdissaient par une clameur continue.
+<span class="tlf_cauteur"><span class="tlf_smallcaps">Gide</span></span><span class="tlf_ctitre">, <i>Tentative amour.,</i></span><span class="tlf_cdate">1893</span>, p. 78.</span></div>
+<div class="tlf_paraputir">− <span class="tlf_ccrochet">[Avec un compl. prép. exprimant la nature]</span> <span class="tlf_cexemple"><i>La rivière était bordée par des grèves de sable </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Flaub.</span></span><span class="tlf_ctitre">, <i>Éduc. sent., </i>t. 1</span><span class="tlf_cdate">, 1869</span>, p. 4).</span><span class="tlf_cexemple"><i>La mer abandonne dans sa retombée une grève de galets et de détritus </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Malraux</span></span><span class="tlf_ctitre">, <i>Espoir,</i></span><span class="tlf_cdate">1937</span>, p. 797).</span>
+</div>
+<div class="tlf_paraputir">− <span class="tlf_cemploi"><i>P. ext.</i></span> <span class="tlf_csynonime">Synon. de <i>rivage.</i></span><span class="tlf_cexemple"><i>M. de Chateaubriand, gentilhomme breton, né sur les grèves de l'océan </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Lamart.</span></span><span class="tlf_ctitre">, <i>Confid.,</i></span><span class="tlf_cdate">1851</span>, p. 284).</span><span class="tlf_cexemple"><i>Il atteignit la grève Des mers dans le pays qui fut depuis Assur </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Hugo</span></span><span class="tlf_ctitre">, <i>Légende, </i>t. 1</span><span class="tlf_cdate">, 1859</span>, p. 48).</span>
+</div>
+<div class="tlf_paraputir">− <span class="tlf_cdomaine"><i>HIST.</i></span> <span class="tlf_csyntagme"><i>Place de Grève.</i></span> <span class="tlf_ccrochet">[À Paris; devenue place de l'Hôtel de Ville]</span> <span class="tlf_cdefinition">Place située en bordure de la Seine, où se faisaient les exécutions publiques.</span> <span class="tlf_csyntagme"><i>Être roué, pendu en place de Grève.</i></span> <span class="tlf_cexemple"><i>Il fallait traverser la moitié de Paris, et descendre sur la place de Grève, en face de l'Hôtel de Ville </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Staël</span></span><span class="tlf_ctitre">, <i>Consid. Révol. fr., </i>t. 1</span><span class="tlf_cdate">, 1817</span>, p. 396).</span><span class="tlf_cexemple"><i>Quand on brûlera des Juifs en place de Grève, il attisera le bûcher </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Clemenceau</span></span><span class="tlf_ctitre">, <i>Iniquité,</i></span><span class="tlf_cdate">1899</span>, p. 352).</span><span class="tlf_cexemple"><i>Les marchands de la rue Saint-Denis sont allés en place de Grève assister au supplice du marquis de Courboyer </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Mauriac</span></span><span class="tlf_ctitre">, <i>Vie Racine,</i></span><span class="tlf_cdate">1928</span>, p. 90).</span><div class="tlf_paraputir">♦ <span class="tlf_cemploi"><i>Absol.</i></span> <span class="tlf_csyntagme"><i>La Grève.</i></span> <span class="tlf_cexemple"><i>Ces désœuvrés étaient là, silencieux, immobiles, attentifs comme l'est le peuple à la Grève, quand le bourreau tranche une tête </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Balzac</span></span><span class="tlf_ctitre">, <i>Peau chagr.,</i></span><span class="tlf_cdate">1831</span>, p. 7).</span><span class="tlf_cexemple"><i>Dans trois jours la justice l'y reprendra, et elle sera pendue en Grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Hugo</span></span><span class="tlf_ctitre">, <i>N.-D. Paris,</i></span><span class="tlf_cdate">1832</span>, p. 446).</span><span class="tlf_csyntagme"><i>Quai de la Grève.</i></span> <span class="tlf_cexemple"><i>Il prit sa course, galopa dégingandé, éperdu, le long du quai de la Grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Zola</span></span><span class="tlf_ctitre">, <i>
+Œuvre,</i></span><span class="tlf_cdate">1886</span>, p. 7).</span><div class="tlf_parothers"></div>
+<span class="tlf_cdefinition">Lieu d'embauche.</span> <span class="tlf_cexemple"><i>Une des grèves les plus curieuses de Paris est celle qui se tient rue Vaucanson, au coin de la rue Réaumur </i>(<span class="tlf_cpublication"><i>Rappel, </i>oct. in <span class="tlf_smallcaps">Fustier</span></span><span class="tlf_ctitre">, <i>Suppl. à Delvau </i>(1889) ds <i>Fr. mod. </i>t. 16 1948</span>, p. 300).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_ccrochet">[P. réf. aux chômeurs en quête de travail, qui se rassemblaient sur la place de Grève]</span> <span class="tlf_csyntagme"><i>Être en grève.</i></span> <span class="tlf_cdefinition">À la recherche d'un travail.</span> <span class="tlf_cexemple"><i>C'est pas possible, il prend ses ouvriers à la grève ce gâche-métier là </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Poulot</span></span><span class="tlf_ctitre">, <i>Sublime,</i></span><span class="tlf_cdate">1872</span>, p. 136).</span>
+</div>
+</div>
+<div class="tlf_parothers">
+<b>REM. </b><div id="art39184">
+<span class="tlf_cmot"><b>Grevette,</b></span> <span class="tlf_ccode">subst. fém.,</span><span class="tlf_cemploi">région. (Aisne).</span> <span class="tlf_cdefinition">Terre de qualité inférieure, faite de sables graveleux.</span> <span class="tlf_cexemple"><i>Le comte l'entraîna dans la cour, rectangle de grevette </i>(<span class="tlf_cauteur">H. <span class="tlf_smallcaps">Bazin</span></span><span class="tlf_ctitre">, <i>Tête contre murs,</i></span><span class="tlf_cdate">1949</span>, p. 79).</span>
+</div>
+</div>
+<div class="tlf_parothers">
+<b>Prononc. et Orth. : </b>[gʀ
+ε:v]. Ds <i>Ac. </i>dep. 1694; ds <i>Ac. </i>1694 et 1718, <i>s.v. greve. </i><b>Étymol. et Hist. </b><i>Ca </i>1140 (G. <span class="tlf_smallcaps">Gaimar</span>, <i>Hist. des anglais, </i>éd. A. Bell, 4711). Du lat. pop. *<i>grava </i>« gravier » (attesté en lat. médiév. 876 ds <span class="tlf_smallcaps">Nierm</span>. au sens de « plage »), d'orig. prélatine; la très grande extension du mot hors de l'aire gallo-romane (A. <span class="tlf_smallcaps">Långfors</span> ds <i>Romania </i>t. 50, p. 631) rend improbable une orig. gauloise (<i>cf. FEW </i>t. 4, p. 259).<b> Bbg. </b><span class="tlf_smallcaps">Darm</span>. Vie 1932, p. 78. - <span class="tlf_smallcaps">Quem</span> <i>DDL </i>t. 1. - <span class="tlf_smallcaps">Rigaud</span> (A.). Sous les ponts de Paris. <i>Vie Lang. </i>1968, pp. 550-560. - <span class="tlf_smallcaps">Thurneysen</span> 1884, p. 102.</div>
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="205780f7a9ea73dea297baf7-|49" defer=""></script><script>(function(){var js = "window['__CF$cv$params']={r:'7722c67b4960f0a3',m:'iHkPfHelLqmT.e4BAqr5bVVfv0DT5LrCGBVqXtQ4ovw-1669802838-0-AYLeGEGNfvhao92YgGnqSfBTOwNvcuZKIEpl+Q9JQmtCOGA5VmYyiVap2AsP/byUmnn7aCIHwijyMsR5kdMadrkHKHOqYxViDgrmi5XSuYE/J2TgXqNLOQ3XofunnT8NMvCo2cavkX0A2ufu+RWYAlU=',s:[0x604b0e0161,0x6e539b2154],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>
+<br /><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div id="art39185">
+<h3 class="tlf_cvedette">
+<span class="tlf_cmot">GRÈVE<sup>2</sup>,</span> <span class="tlf_ccode">subst. fém.</span>
+</h3>
+<div class="tlf_parah">
+<span class="tlf_cplan"><b>A. −</b></span> <span class="tlf_ccrochet">[P. réf. aux chômeurs en quête de travail, qui se rassemblaient sur la place de Grève, à Paris; v. <i>grève</i><sup>1</sup><i>HIST.</i>]</span> <div class="tlf_parah">
+<span class="tlf_cplan"><b>1.</b></span> <span class="tlf_ccrochet">[Dans une entreprise]</span> <span class="tlf_cdefinition">Cessation collective, volontaire et concertée du travail (généralement avec préavis et pour une durée déterminée) par des salariés qui cherchent ainsi à contraindre leur employeur à satisfaire leurs revendications professionnelles.</span> <span class="tlf_cexemple"><i>Par suite des grèves, le chargement n'a pu être achevé avant la nuit </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Gide</span></span><span class="tlf_ctitre">, <i>Journal,</i></span><span class="tlf_cdate">1936</span>, p. 1243).</span><span class="tlf_cexemple"><i>Des grèves venaient d'éclater en plusieurs villes </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Arland</span></span><span class="tlf_ctitre">, <i>Ordre,</i></span><span class="tlf_cdate">1929</span>, p. 210).</span><span class="tlf_cexemple"><i>Ils étaient abattus parce que la grève avait échoué </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Aragon</span></span><span class="tlf_ctitre">, <i>Beaux-Quart.,</i></span><span class="tlf_cdate">1936</span>, p. 503).</span><span class="tlf_cexemple"><i>L'ouvrier apprend que d'autres ouvriers dans un autre métier ont, après une grève, obtenu un relèvement de salaires </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Merleau</span>-<span class="tlf_smallcaps">Ponty</span></span><span class="tlf_ctitre">, <i>Phénoménol. perception,</i></span><span class="tlf_cdate">1945</span>, p. 507) :</span><div class="tlf_tabulation"><span class="tlf_cexemple">1. Le <i>lock-out </i>qui est, si j'ai bien compris, une sorte de <b>grève </b>des capitalistes en réponse aux <b>grèves </b>ouvrières, menace le royaume d'une ruine prochaine.
+<span class="tlf_cauteur"><span class="tlf_smallcaps">Bloy</span></span><span class="tlf_ctitre">, <i>Journal,</i></span><span class="tlf_cdate">1899</span>, p. 357.</span></div>
+<div class="tlf_parsynt"><span class="tlf_csyntagme"><b>SYNT. </b><i>Grève illimitée; une longue grève; grève partielle, totale, symbolique; grèves massives, disciplinées; faire (la) grève; être, se mettre en grève; décider, décréter, déclencher, poursuivre, briser une grève; inciter, renoncer, mettre fin à une grève; menace, ordre, journée de grève; préavis, continuation, fin de la grève; mouvements de grève; déclenchement, organisation, règlementation de la grève; femmes, ouvriers, travailleurs en grève; grève-bouchon; grève avec occupation (des usines).</i></span></div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Comité de grève.</i></span> <span class="tlf_cdefinition">Comité chargé d'organiser et de contrôler la grève.</span> <span class="tlf_cexemple"><i>Ce Volkouski était un des plus âpres travailleurs du comité de grève </i>(<span class="tlf_cauteur">G. <span class="tlf_smallcaps">Leroux</span></span><span class="tlf_ctitre">, <i>Roul. tsar,</i></span><span class="tlf_cdate">1912</span>, p. 85).</span><span class="tlf_cexemple"><i>Il vint rôder autour de la maison des syndicats, où était le comité de grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Aragon</span></span><span class="tlf_ctitre">, <i>Beaux quart.,</i></span><span class="tlf_cdate">1936</span>, p. 499).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Piquet de grève.</i></span> <span class="tlf_cdefinition">Personnel gréviste mis en place à l'entrée (d'une entreprise) pour empêcher toute reprise éventuelle du travail.</span> <span class="tlf_cexemple"><i>Borodine en demanda la création </i>[<i>des syndicats obligatoires</i>], <i>avant de disposer des piquets de grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Malraux</span></span><span class="tlf_ctitre">, <i>Conquér.,</i></span><span class="tlf_cdate">1928</span>, p. 54).</span><span class="tlf_cexemple"><i>Ne vous fatiguez pas pour les piquets de grève, avait dit le patron. Quand l'atelier ne travaille pas, je fais des économies </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Camus</span></span><span class="tlf_ctitre">, <i>Exil et Roy.,</i></span><span class="tlf_cdate">1957</span>, p. 1598).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Briseur de grève.</i></span> <span class="tlf_cdefinition">Personne qui continue à travailler dans une entreprise en grève, ou qui a été embauchée à la place d'un gréviste.</span> <span class="tlf_csynonime">Synon. vieilli. <i>jaune.</i></span><span class="tlf_cexemple"><i>Un jeune bourgeois, qui faisait partie, il y avait encore quinze jours, d'une organisation de briseurs de grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Aragon</span></span><span class="tlf_ctitre">, <i>Beaux quart.,</i></span><span class="tlf_cdate">1936</span>, p. 122).</span><span class="tlf_cexemple"><i>Il a commencé à m'exposer avec volubilité le rôle que les gangsters avaient joué ces dernières années comme briseurs de grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Beauvoir</span></span><span class="tlf_ctitre">, <i>Mandarins,</i></span><span class="tlf_cdate">1954</span>, p. 306).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Faits de grève.</i></span> <span class="tlf_cdefinition">Participation à une grève.</span> <span class="tlf_cexemple"><i>Un ancien collègue de Gautier, Simon, employé des chemins de fer, révoqué pour faits de grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Rolland</span></span><span class="tlf_ctitre">, <i>J.-Chr., </i>Buisson ard.</span><span class="tlf_cdate">, 1911</span>, p. 1281).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Allocation de grève.</i></span> <span class="tlf_cdefinition">Allocation versée aux grévistes par une caisse prévue à cet effet.</span> <span class="tlf_cexemple"><i>Notre camarade Borodine a dû intervenir au conseil pour faire maintenir le paiement des allocations de grève à Canton </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Malraux</span></span><span class="tlf_ctitre">, <i>Conquér.,</i></span><span class="tlf_cdate">1928</span>p. 71).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Droit, liberté de grève</i></span> <span class="tlf_cexemple"><i>Interdiction du droit de grève et de lock-out </i>(<span class="tlf_cauteur">T'<span class="tlf_smallcaps">Serstevens</span></span><span class="tlf_ctitre">, <i>Itinér. esp.,</i></span><span class="tlf_cdate">1963</span>, p. 294).</span><span class="tlf_cexemple"><i>Le gouvernement, en juillet 1963, veut réglementer l'exercice du droit de grève dans les services publics </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Reynaud</span></span><span class="tlf_ctitre">, <i>Syndic. France,</i></span><span class="tlf_cdate">1963</span>, p. 145).</span>
+</div>
+<div class="tlf_paraputir">− <span class="tlf_ccrochet">[Avec un compl. prép. <i>de </i>ou un déterm. adj. désignant l'entreprise en grève ou l'objet de la production arrêtée]</span> <span class="tlf_csyntagme"><i>Grève des services publics, des fonctionnaires, des chemins de fer; grèves scolaires; grève des heures supplémentaires.</i></span> <span class="tlf_cexemple"><i>Ta lettre à Gide et mon poème, envoyés au moment de la grève des postes, se sont perdus </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Alain</span>-<span class="tlf_smallcaps">Fournier</span></span><span class="tlf_ctitre">, <i>corresp. </i>[avec Rivière]</span><span class="tlf_cdate">, 1909</span>, p. 133).</span><span class="tlf_cexemple"><i>Ils ont brisé la fameuse grève des docks en 1898 </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Sartre</span></span><span class="tlf_ctitre">, <i>Nausée,</i></span><span class="tlf_cdate">1938</span>, p. 111) :</span><div class="tlf_tabulation"><span class="tlf_cexemple">2. Quel est le mobilisé d'usine (...) qui fait des discours dans l'atelier pour qu'on déclare la <b>grève </b>des obus et qu'on arrête ainsi le massacre des prolétaires?...
+<span class="tlf_cauteur"><span class="tlf_smallcaps">Romains</span></span><span class="tlf_ctitre">, <i>Homme bonne vol.,</i></span><span class="tlf_cdate">1938</span>, p. 229.</span></div>
+</div>
+<div class="tlf_paraputir">− <span class="tlf_cemploi"><i>En partic.</i></span> <span class="tlf_ccrochet">[Formes de grèves d'entreprises]</span> <div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Grève(-)surprise.</i></span> <span class="tlf_cdefinition">Grève déclenchée avant toute négociation.</span> <span class="tlf_cexemple"><i>Un grève-surprise, déclenchée ce matin </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Arnoux</span></span><span class="tlf_ctitre">, <i>Double chance,</i></span><span class="tlf_cdate">1958</span>, 200).</span><span class="tlf_cexemple"><i>Une grève d'un type nouveau éclate. Imprévisible, incontrôlable grève-surprise, elle explose dans un atelier, puis elle rebondit dans un autre, là où on s'y attend le moins </i>(<span class="tlf_cpublication"><i>Le Nouvel Observateur,</i></span><span class="tlf_cdate">8 sept. 1969</span>, p. 19, col. 3).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Grève sur le tas.</i></span> <span class="tlf_cdefinition">Grève impliquant la présence des grévistes sur leur lieu de travail.</span> <span class="tlf_cexemple"><i>Condamnation implicite des grèves sur le tas </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Reynaud</span></span><span class="tlf_ctitre">, <i>Syndic. France,</i></span><span class="tlf_cdate">1963</span>, p. 88).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Grève d'avertissement, de harcèlement.</i></span> <span class="tlf_cexemple"><i>Débrayages de protestation, grèves d'avertissement </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Reynaud</span></span><span class="tlf_ctitre">, <i>Syndic. France,</i></span><span class="tlf_cdate">1963</span>p. 143).</span><span class="tlf_cexemple"><i>Les grèves de harcèlement, les grèves spontanées ont tenu beaucoup de place dans les années récentes </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Reynaud</span></span><span class="tlf_ctitre">, <i>Syndic. France,</i></span><span class="tlf_cdate">1963</span>p. 151).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Grève de solidarité.</i></span> <span class="tlf_cdefinition">Grève faite par une autre entreprise que celle en grève pour soutenir son action revendicative.</span> <span class="tlf_cexemple"><i>Le plus incroyable était qu'on autorisât des grèves solidarité </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Aragon</span></span><span class="tlf_ctitre">, <i>Beaux quart.,</i></span><span class="tlf_cdate">1936</span>, p. 43).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Grève tournante; grève articulée </i>(rare).</span> <span class="tlf_cdefinition">Grève qui affecte successivement les différents secteurs ou services d'une entreprise.</span> <span class="tlf_cexemple"><i>Il est compréhensible que le gouvernement réagisse (...) en mettant hors la loi les grèves tournantes dans les services publics </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Reynaud</span></span><span class="tlf_ctitre">, <i>Syndic. France,</i></span><span class="tlf_cdate">1963</span>p. 153).</span><span class="tlf_cexemple"><i>À côté de ces mouvements généralisés, on enregistre des grèves « articulées » (c.-à-d. « tournantes ») dans de nombreuses entreprises industrielles </i>(<span class="tlf_cpublication"><i>Le Nouvel Observateur,</i></span><span class="tlf_cdate">25 mai 1970</span>, p. 28, col. 3).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Grève sauvage.</i></span> <span class="tlf_cdefinition">Grève déclenchée en dehors de toute consigne syndicale.</span> <span class="tlf_cexemple"><i>« Grève sauvage » échappant au contrôle des centrales syndicales </i>(<span class="tlf_cpublication"><i>L'Express,</i></span><span class="tlf_cdate">18 nov. 1966</span>, p. 54).</span><span class="tlf_cexemple"><i>Et puis est apparue (...) la grève sauvage, qui naît souvent d'un noyau dur au niveau d'un atelier qui peut bloquer la production et paralyser l'entreprise </i>(<span class="tlf_cpublication"><i>Les Informations,</i></span><span class="tlf_cdate">12 févr. 1973</span>, p. 46, col. 3).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Grève générale.</i></span> <span class="tlf_cdefinition">Grève qui affecte toutes les entreprises d'une région, d'un pays (et qui se rapproche souvent de la grève politique; v. ex. 3).</span> <span class="tlf_cexemple"><i>La fédération des syndicats qui proposait la grève générale comme le plus puissant moyen d'agir sur les patrons et l'aide la plus efficace aux révolutionnaires </i>(<span class="tlf_cauteur">A. <span class="tlf_smallcaps">France</span></span><span class="tlf_ctitre">, <i>Île ping.,</i></span><span class="tlf_cdate">1908</span>, p. 412).</span><span class="tlf_cexemple"><i>En septembre 1938, raconte Marat, la C.G.T. donna l'ordre d'une grève générale de 14 heures que les patrons et gouvernement décidèrent de briser </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Vailland</span></span><span class="tlf_ctitre">, <i>Drôle de jeu,</i></span><span class="tlf_cdate">1945</span>, p. 173) :</span><div class="tlf_tabulation"><span class="tlf_cexemple">3. ... j'ai toujours interprété la <b>grève </b><i>générale </i>non comme un moyen de violence, mais comme un des plus vastes mécanismes de pression légale que, pour des objets définis et grands, pouvait manier le prolétariat éduqué et organisé.
+<span class="tlf_cauteur"><span class="tlf_smallcaps">Jaurès</span></span><span class="tlf_ctitre">, <i>Ét. soc.,</i></span><span class="tlf_cdate">1901</span>, p. XXXV.</span></div>
+</div>
+</div>
+<div class="tlf_paraputir">− <span class="tlf_cemploi"><i>P. ext.</i></span> <span class="tlf_ccrochet">[Avec l'idée d'un ralentissement dans l'activité ou la production]</span> <div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Grève perlée.</i></span> <span class="tlf_cdefinition">Ralentissement collectif, volontaire et concerté du rythme de travail.</span> <span class="tlf_cexemple"><i>Faire la grève perlée, il n'y fallait pas songer à cause du froid </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Ambrière</span></span><span class="tlf_ctitre">, <i>Gdes vac.,</i></span><span class="tlf_cdate">1946</span>, p. 88).</span>
+</div>
+<div class="tlf_paraputir">♦ <span class="tlf_csyntagme"><i>Grève du zèle.</i></span> <span class="tlf_cdefinition">Ralentissement de la production, lié à l'observation trop méticuleuse des consignes de travail.</span> </div>
+</div>
+</div>
+<div class="tlf_parah">
+<span class="tlf_cplan"><b>2.</b></span> <span class="tlf_csyntagme"><i>Grève politique </i>[P. oppos. à la <i>grève syndicaliste </i>qui vise la satisfaction des revendications professionnelles]</span> <span class="tlf_cdefinition">Cessation générale et volontaire du travail par des salariés qui cherchent ainsi à provoquer le renversement, la chute du pouvoir politique.</span> <span class="tlf_cexemple"><i>Aujourd'hui nous possédons assez d'éléments pour comprendre aussi bien la grève syndicaliste que la grève politique </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Sorel</span></span><span class="tlf_ctitre">, <i>Réflex. violence,</i></span><span class="tlf_cdate">1908</span>, p. 267).</span>
+</div>
+</div>
+<div class="tlf_parah">
+<span class="tlf_cplan"><b>B. −</b></span> <span class="tlf_cemploi"><i>P. ext.</i></span> <span class="tlf_ccrochet">[En tant qu'arrêt d'une activité]</span> <div class="tlf_parah">
+<span class="tlf_cplan"><b>1.</b></span> <span class="tlf_ccrochet">[Avec l'idée d'un arrêt collectif et concerté]</span> <div class="tlf_paraputir">− <span class="tlf_ccrochet">[En parlant de travailleurs indépendants, non salariés]</span> <span class="tlf_cdefinition">Cessation concertée du travail, faite par un corps de métier ou un groupe social, en signe de mécontentement, et provoquant souvent la gêne de ceux qui ont recours à ses services.</span> <span class="tlf_csyntagme"><i>Grève des boulangers, des bouchers :</i></span> <div class="tlf_tabulation"><span class="tlf_cexemple">4. Chez les paysans, la technique est celle de la cessation des livraisons : ainsi la <b>grève </b>des approvisionnements du blé ou du lait par laquelle les producteurs mécontents des prix fixés par le gouvernement cessent d'envoyer leurs produits aux centres urbains...
+<span class="tlf_cauteur"><span class="tlf_smallcaps">Meynaud</span></span><span class="tlf_ctitre">, <i>Groupes pression Fr.,</i></span><span class="tlf_cdate">1958</span>, p. 156.</span></div>
+</div>
+<div class="tlf_paraputir">− <span class="tlf_csyntagme"><i>Grève de l'impôt.</i></span> <span class="tlf_cdefinition">Refus concerté de payer l'impôt.</span> <span class="tlf_cexemple"><i>La proclamation de la « grève » de l'impôt comporte une part très appréciable de bluff </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Meynaud</span></span><span class="tlf_ctitre">, <i>Groupes pression Fr.,</i></span><span class="tlf_cdate">1958</span>p. 158).</span>
+</div>
+<div class="tlf_paraputir">− <span class="tlf_csyntagme"><i>Grève des femmes.</i></span> <span class="tlf_cexemple"><i>Le M.L.F. organise pour la fin de mai la première grève des femmes. Grève du travail salarié, du travail scolaire et universitaire, du travail domestique, des soins aux enfants </i>(<span class="tlf_cpublication"><i>Le Nouvel Observateur,</i></span><span class="tlf_cdate">11 mars 1974</span>, p. 52, col. 2).</span>
+</div>
+</div>
+<div class="tlf_parah">
+<span class="tlf_cplan"><b>2.</b></span> <span class="tlf_ccrochet">[Au plan individuel ou collectif, mais sans l'idée d'une concertation préalable]</span> <span class="tlf_cdefinition">Cessation temporaire du travail habituel.</span> <span class="tlf_cexemple"><i>Le jeudi, chômage encanaillé, grève en tablier noir et bottine à clous, permet tout. Pendant près de cinq heures, ces enfants ont goûté les licences du jeudi </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Colette</span></span><span class="tlf_ctitre">, <i>Mais. Cl.,</i></span><span class="tlf_cdate">1922</span>, p. 34).</span><div class="tlf_paraputir">− <span class="tlf_cemploi"><i>P. ext.</i></span> <span class="tlf_cdefinition">Cessation d'activité, suspension d'une action déterminée.</span> <span class="tlf_cexemple"><i>Il suffirait, pensaient-ils, de mettre leur appétit en grève, de refuser toute nourriture </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Zola</span></span><span class="tlf_ctitre">, <i>Nouv. contes Ninon,</i></span><span class="tlf_cdate">1874</span>, p. 47).</span><span class="tlf_cexemple"><i>Bouderie : une grève de gamins </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Renard</span></span><span class="tlf_ctitre">, <i>Journal,</i></span><span class="tlf_cdate">1893</span>, p. 166).</span><span class="tlf_cexemple"><i>Qu'est-ce que cela veut dire? Les contribuables pourront aussi faire grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Barrès</span></span><span class="tlf_ctitre">, <i>Cahiers,</i></span><span class="tlf_cdate">1907</span>, p. 106).</span><div class="tlf_paraputir">♦ <span class="tlf_cemploi"><i>En partic.</i></span> <span class="tlf_csyntagme"><i>Grève de la faim.</i></span> <span class="tlf_ccrochet">[Dénomination littéralement impropre]</span> <span class="tlf_cdefinition">Grève consistant à refuser toute alimentation (généralement en signe de protestation).</span> <span class="tlf_cexemple"><i>Ardèle s'est enfermée à clef, elle ne veut ouvrir à personne, elle fait la grève de la faim </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Marcel</span></span><span class="tlf_ctitre">, <i>Heure théâtr.,</i></span><span class="tlf_cdate">1959</span>, p. 120) :</span><div class="tlf_tabulation"><span class="tlf_cexemple">5. ... Gandhi choisit de ne pas manger pour fléchir son adversaire. La <b>grève </b><i>de la faim </i>est sans doute l'expérience rare qui révèle la nature vraiment humaine de nos besoins comme, en un certain sens, la chasteté (monacale ou autre) constitue la sexualité en sexualité humaine.
+<span class="tlf_cauteur"><span class="tlf_smallcaps">Ricœur</span></span><span class="tlf_ctitre">, <i>Philos. volonté,</i></span><span class="tlf_cdate">1949</span>, p. 90.</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="tlf_parothers">
+<b>REM. </b><b>1.</b> <div id="art39186">
+<span class="tlf_cmot"><b>Antigrève,</b></span> <span class="tlf_ccode">subst. fém.,</span><span class="tlf_cemploi">emploi adj.</span> <span class="tlf_cexemple"><i>Une clause antigrève dans une loi </i>(<span class="tlf_cpublication"><i>Lexis</i></span><span class="tlf_cdate">1975</span>).</span>
+</div>
+<b>2.</b> <div id="art39187">
+<span class="tlf_cmot"><b>Contre-grève,</b></span> <span class="tlf_ccode">subst. fém.</span><span class="tlf_cexemple"><i>Les prix du revient de la vie deviendront impossibles, si un beau jour, les bourgeois ne font pas de la contre-grève </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Goncourt</span></span><span class="tlf_ctitre">, <i>Journal,</i></span><span class="tlf_cdate">1891</span>, p. 111).</span>
+</div>
+<b>3.</b> <div id="art39188">
+<span class="tlf_cmot"><b>Grèver de la faim,</b></span> <span class="tlf_ccode">loc. verb.,</span><span class="tlf_cemploi">hapax.</span> <span class="tlf_cdefinition">Faire la grève de la faim.</span> <span class="tlf_cexemple"><i>Prêts depuis toujours à grèver de la faim </i>(<span class="tlf_cauteur">A. <span class="tlf_smallcaps">Boudard</span></span><span class="tlf_ctitre">, <i>La Cerise,</i></span><span class="tlf_cdate">1963</span>, 222 ds <span class="tlf_smallcaps">Quem</span>. <i>DDL </i>t. 13).</span>
+</div>
+</div>
+<div class="tlf_parothers">
+<b>Prononc. et Orth. </b>V. <i>grève</i><sup>1</sup>. <b>Étymol. et Hist. </b>1805 (Rapp. 5 prair. an XIII − 25 mai 1805, Aul., <i>Par ... Emp., </i>t. I, p. 801 ds <span class="tlf_smallcaps">Brunot</span> t. 9, p. 1183, note 7 : Les tailleurs de pierre ont décidé entre eux de <i>faire, </i>demain lundi, ce qu'ils appellent <b>« grève » </b>[c'est-à-dire de quitter l'ouvrage] pour demander de l'augmentation). Du nom de la place de Grève à Paris, au bord de la Seine (actuelle place de l'Hôtel de Ville), (1260, E. <span class="tlf_smallcaps">Boileau</span>, <i>Métiers, </i>éd. J.-B. Depping, p. 15) où se réunissaient les ouvriers sans travail, en attendant l'embauche.</div>
+<div class="tlf_parothers">
+<b>STAT. </b><i>− Grève</i><sup>1 et 2</sup>. <b>Fréq. abs. littér. : </b>1850. <b>Fréq. rel. littér. : </b><span class="tlf_smallcaps">xix</span><sup>e</sup>s. : a) 2327; b) 2246; <span class="tlf_smallcaps">xx</span><sup>e</sup>s. : a) 3972, b) 2288.</div>
+<div class="tlf_parothers">
+<b>BBG.</b> − <span class="tlf_smallcaps">Giraud</span> (J.), <span class="tlf_smallcaps">Pamart</span> (P.), <span class="tlf_smallcaps">Riverain</span> (J.). Mots dans le vent. <i>Vie Lang. </i>1970, pp. 94-107. - <span class="tlf_smallcaps">Mimin</span> (P.). Terminol. jur. de la grève. <i>Déf. Lang. fr. </i>1973, n<sup>o</sup>70, p. 22.</div>
+</div>
+</body></html>
+<br /><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div id="art39189">
+<h3 class="tlf_cvedette">
+<span class="tlf_cmot">GRÈVE<sup>3</sup>,</span> <span class="tlf_ccode">subst. fém.</span>
+</h3>
+<span class="tlf_cemploi"><i>Vx.</i></span> <span class="tlf_cdefinition">Partie de l'armure protégeant les jambes. (<span class="tlf_csource">Dict. <span class="tlf_smallcaps">xix</span><sup>e</sup>et <span class="tlf_smallcaps">xx</span><sup>e</sup>s.</span>).</span> <span class="tlf_cexemple"><i>J'ai les grèves rôties! </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Bertrand</span></span><span class="tlf_ctitre">, <i>Gaspard,</i></span><span class="tlf_cdate">1841</span>, p. 95).</span><span class="tlf_cexemple"><i>Du haut en bas des murailles s'étalaient d'éclatantes panoplies (...) brigantines, grèves </i>(<span class="tlf_cauteur">A. <span class="tlf_smallcaps">France</span></span><span class="tlf_ctitre">, <i>Anneau améth.,</i></span><span class="tlf_cdate">1899</span>, p. 97).</span><div class="tlf_parothers">
+<b>Prononc. : </b>[gʀ
+ε:v]. <b>Étymol. et Hist. </b>1306 (G. <span class="tlf_smallcaps">Guiart</span>, <i>Royaux Lignages, </i>éd. de Wailly et Delisle, 20519). Cette partie de l'armure qui couvre le tibia, ou bien la crête antérieure du tibia, ayant pu être comparées à la raie qui sépare en deux la chevelure (<i>cf. FEW </i>t. 16, p. 49 b et A. Thomas ds <i>Romania </i>t. 42, p. 407), le mot est prob. issu par évolution sém. de <i>greve </i>« raie (dans les cheveux) » (fin <span class="tlf_smallcaps">xi</span><sup>e</sup>s. <span class="tlf_smallcaps">Raschi</span>, <i>Gl., </i>éd. A. Darmesteter et D.S. Blondheim, t. 1, p. 79, n<sup>o</sup>569; <i>ca </i>1160 <i>Enéas, </i>éd. J.J. Salverda de Grave, 3990), déverbal de <i>graver</i>*.</div>
+</div>
+</body></html>
+<br />
+</div>
+</div>
+<div id="wiktionnaire">
+<h3>Wiktionnaire</h3>
+<div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<h4>Nom commun 3 - français</h4>
+<p><b>grève</b> <span class="API" title="Prononciation API">\ɡʁɛv\</span> <span class="ligne-de-forme"><i>féminin</i></span>
+</p>
+<ol>
+<li>
+<i>(<span title="L’Antiquité est la période de l’histoire entre l’an -4000 et l’an 476." id="fr-Antiquité">Antiquité</span>)</i> <span class="term" id="armurerie"><i>(<span class="texte">Armurerie</span>)</i></span> Partie de l’armure qui couvrait le tibia, la jambe.
+<ul><li>
+<i>Du haut en bas des murailles s’étalaient d’éclatantes panoplies </i>[…]<i> brigantines, <b>grèves</b>.</i> <span class="sources"><span class="tiret">— </span>(Anatole France, <i>L’Anneau d’améthyste</i>, 1899, p. 97)</span>
+</li></ul>
+</li>
+<li>Jambe.
+<ul><li>
+<i>J’ai les <b>grèves</b> rôties !</i> <span class="sources"><span class="tiret">— </span>(<span class="petites_capitales" style="font-variant:small-caps;">Bertrand</span>, <i>Gaspard</i>, 1841, p. 95)</span>
+</li></ul>
+</li>
+</ol>
+</body></html>
+</div>
+<div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<h4>Nom commun 2 - français</h4>
+<p><b>grève</b> <span class="API" title="Prononciation API">\ɡʁɛv\</span> <span class="ligne-de-forme"><i>féminin</i></span>
+</p>
+<ol>
+<li>
+<i>(<span title="Le travail désigne l’activité qui permet de produire biens et services." id="fr-travail">Travail</span>)</i> Entente, accord des salariés d’une usine, d'une entreprise, d’une profession, pour cesser leur travail jusqu’à ce qu’ils aient obtenu une augmentation de salaire ou certains autres avantages.
+<ul>
+<li>
+<i>Les <b>grèves</b>, qui se multiplient chaque jour davantage et qui ont fait, dans le Jura, leur apparition d'une manière éclatante, contraignent pour ainsi dire les populations à s'occuper de cette question tant redoutée qu'on appelle la Question sociale.</i> <span class="sources"><span class="tiret">— </span>(Adhémar <span class="petites_capitales" style="font-variant:small-caps;">Schwitzguébel</span>, <i>Manifeste adressé aux ouvriers du Vallon de Saint-Imier</i>, février 1870)</span>
+</li>
+<li>
+<i>Or, voici que M. Millerand apporte au Conseil des ministres un projet de loi sur la <b>grève</b> obligatoire. Qu'est-ce à dire? C'est-à-dire que, dorénavant, lorsque les ouvriers d'une usine voudront se mettre en <b>grève</b>, il devra être procédé à une consultation préalable. Tous les travailleurs intéressés voteront pour ou contre la cessation du travail. Si la moitié plus un des ouvriers opine pour la <b>grève</b>, la minorité — dans l'espèce la moitié moins un — devra s'incliner. La <b>grève</b> sera obligatoire.</i> <span class="sources"><span class="tiret">— </span>(Joseph Caillaux, <i>Mes Mémoires, I, Ma jeunesse orgueilleuse</i>, 1942, p. 179 &amp; 180)</span>
+</li>
+</ul>
+</li>
+<li>
+<span class="emploi"><span id="extension"></span><i>(<span class="texte">Par extension</span>)</i></span> Cessation d’activité comme moyen de pression politique.
+<ul>
+<li>
+<i>Je comprends que ce mythe de la <b>grève</b> générale froisse beaucoup de gens sages à cause de son caractère d’infinité </i>[…] <span class="sources"><span class="tiret">— </span>(Georges Sorel, Lettre à Daniel Halévy, 15 juillet 1907, dans <i>Réflexions sur la violence</i>, 1908)</span>
+</li>
+<li>
+<i>Le changement des conditions objectives de la lutte, qui imposait la nécessité de passer de la <b>grève</b> à l’insurrection, fut ressenti par le prolétariat bien avant que par ses dirigeants.</i> <span class="sources"><span class="tiret">— </span>(Lénine, <i>Rapport sur la Révolution de 1905</i>, traduit du russe (<i>Pravda</i> du 22 janvier 1925), Éditions du Progrès, Moscou, 1966, p. 6)</span>
+</li>
+<li>
+<i>Ce n’est pas sans regret, sans doute, que les ardoisiers de Fumay feront <b>grève</b> le 11 mars 1912 afin d’appuyer la proposition de loi : une <b>grève</b> soutenue par l’Union départementale des Syndicats </i>[…] <span class="sources"><span class="tiret">— </span>(Henri Manceau, <i>Des luttes ardennaises</i>, 1969)</span>
+</li>
+<li>
+<i>C’était l’époque de la Chambre bleu horizon, comme on l’appelait, une Chambre d’extrême droite et d’un patriotisme sourcilleux. Lors de la <b>grève</b> des employés du métro, j’ai vu, de mes yeux, les polytechniciens en grande tenue et en gants blancs conduire les rames de wagons pour faire échec aux ouvriers.</i> <span class="sources"><span class="tiret">— </span>(Georges Simenon, <i>Un homme comme un autre</i>, 1975)</span>
+</li>
+<li>
+<i>Maurice Thorez, ministre d’État, disait : « Il faut savoir finir une <b>grève</b>. Retroussons nos manches. »</i> <span class="sources"><span class="tiret">— </span>(Édouard Bled, <i>J’avais un an en 1900</i>, Fayard, 1987, Le Livre de Poche, page 364.)</span>
+</li>
+<li><i>L’Unef soutiendra les étudiants qui votent le blocage et qui votent la <b>grève</b> dans les universités. <span class="sources"><span class="tiret">— </span>(Jean-Baptiste <span class="petites_capitales" style="font-variant:small-caps;">Prévost</span>, cité par l’AFP, octobre 2010)</span></i></li>
+</ul>
+</li>
+</ol>
+</body></html>
+</div>
+<div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<h4>Nom commun 1 - français</h4>
+<p><b>grève</b> <span class="API" title="Prononciation API">\ɡʁɛv\</span> <span class="ligne-de-forme"><i>féminin</i></span>
+</p>
+<ol>
+<li>
+Terrain uni et sablonneux le long de la mer ou d’une grande rivière.
+<ul>
+<li>
+<i>Deux fois par jour la mer reçut ordre de se lever de nouveau dans son lit et d’envahir ses <b>grèves</b>.</i> <span class="sources"><span class="tiret">— </span>(François René <span class="petites_capitales" style="font-variant:small-caps;">Chateaubriand</span>, <i>Génie</i>, I, IV, 4)</span>
+</li>
+<li>
+<i>En parcourant les <b>grèves</b> laissées à sec par la marée, je faisais lever de nombreuses tribus d’oiseaux de rivage </i>[…] <span class="sources"><span class="tiret">— </span>(Jean Louis Armand de Quatrefages de Bréau, <i>L’Archipel de Chausey, souvenirs d’un Naturaliste</i>, <i>Revue des Deux Mondes</i>, tome 30, 1842)</span>
+</li>
+<li>
+<i>Kalumah fut plongée dans l’eau froide dont la fraîcheur la ranima, et quelques instants plus tard, une lame la jetait mourante sur une <b>grève</b> de sable.</i> <span class="sources"><span class="tiret">— </span>(Jules Verne, <i>Le Pays des fourrures</i>, 2 partie, chapitre 9, J. Hetzel et C<sup style="font-size:83.33%;line-height:1;">ie</sup>, Paris, 1873, page 291)</span>
+</li>
+<li>
+<i>Démocrite aurait trouvé aux rives du Jourdain et aux <b>grèves</b> de la mer Morte un aspect enchanteur.</i> <span class="sources"><span class="tiret">— </span>(Jules Verne, <i>Claudius Bombarnac</i>, chapitre <abbr class="romain" title="4">IV</abbr>, J. Hetzel et C<sup style="font-size:83.33%;line-height:1;">ie</sup>, Paris, 1892, Page:Verne - Claudius Bombarnac.djvu/46)</span>
+</li>
+<li>
+<i>Soumise à des alternatives d’émersion et d’immersion d’amplitude et de durée variables, la <b>grève</b> est occupée par des groupements </i>[…]<i> constitués essentiellement par des espèces amphibies adaptées aux « variations du niveau hydrostatique ».</i> <span class="sources"><span class="tiret">— </span>(Gustave Malcuit, <i>Contributions à l’étude phytosociologique des Vosges méridionales saônoises : les associations végétales de la vallée de la Lanterne</i>, thèse de doctorat, Société d’édition du Nord, 1929, p. 54)</span>
+</li>
+<li>
+<i>Chaque soir, lorsque sonnait le couvre-feu, les chiennetiers lâchaient les dogues hors des murs et malheur à qui rôdait alors à travers les <b>grèves</b> où les navires étaient échoués à mer basse </i>[…] <span class="sources"><span class="tiret">— </span>(Henri-Georges <span class="petites_capitales" style="font-variant:small-caps;">Gaignard</span>, <i>Connaître Saint-Malo</i>, éd. Fernand Lanore, 1973, page 160)</span>
+</li>
+<li>
+<i>Du reste, les familles du bourg elles-mêmes, moins farouchement cloîtrées que notre petite cellule féminine, n’usaient de la « <b>grève</b> » – on ne disait pas la plage– que parcimonieusement, pour une expédition qui demandait une préparation minutieuse et un chargement de provisions et de lainages.</i> <span class="sources"><span class="tiret">— </span>(Mona Ozouf, <i>Composition française</i>, Gallimard, 2009, collection Folio, page 82)</span>
+</li>
+</ul>
+</li>
+<li>
+Banc de sable qui se forme dans la Loire, et que le courant porte tantôt d’un côté, tantôt d’un autre.</li>
+<li>
+<i>(<span title="La maçonnerie est le bâtissage par assemblage." id="fr-maçonnerie">Maçonnerie</span>)</i> <span class="emploi"><span id="vieilli"></span><i>(<span class="texte">Vieilli</span>)</i></span> Le gros sable qui sert à faire du béton ou du mortier.</li>
+</ol>
+</body></html>
+</div>
+<span class="attribution">Wiktionnaire - licence Creative Commons attribution partage à l’identique 3.0</span>
+</div>
+<div id="academie-francaise">
+<h3>Dictionnaire de l’Académie française, huitième édition (1932-1935)</h3>
+<div>
+<span class="tlf_cvedette"><span class="tlf_cmot">GRÈVE</span>. <span class="tlf_ccode">n. f.</span></span><br> Lieu uni et plat, couvert de gravier, de sable, le long de la mer ou d'une grande rivière. <i>Les vagues se déploient sur la grève. La grève était couverte de débris.
+</i>Absolument, <i>La Grève, </i>Place publique de Paris, située sur le bord de la Seine, devant l'Hôtel de Ville, où l'on faisait autrefois les exécutions et où se réunissaient les ouvriers sans travail en attendant d'être embauchés. <i>Le coupable fut décapité en Grève, en place de Grève. </i>Par extension, il signifie aujourd'hui Entente, accord des ouvriers d'un atelier, d'une profession, pour cesser leur travail jusqu'à ce qu'ils aient obtenu une augmentation de salaire ou certains autres avantages. <i>Le droit de grève. Faire grève. Se mettre en grève. Faits de grève. Grève perlée.
+</i>
+</div>
+</div>
+<div id="littre">
+<h3>Littré (1872-1877)</h3>
+<div>
+<div class="entete">
+<strong>GRÈVE</strong> <em id="prn">(grè-v')</em> <b><abbr title="substantif féminin">s. f.</abbr></b>
+</div>
+<ul class="corps">
+<li id="var1">
+<b class="num">1</b>Terrain uni et sablonneux le long de la mer ou d'une grande rivière. <cite><q>Deux fois par jour la mer reçut ordre de se lever de nouveau dans son lit et d'envahir ses grèves</q>, <span class="src">Chateaubriand, <em class="ref" title="Le génie du christianisme, ou Les beautés de la religion chrétienne">Génie, I, IV, 4</em>.</span></cite> <cite><q>Que j'aime à contempler dans cette anse écartée La mer qui vient dormir sur la grève argentée, Sans soupir et sans mouvement !</q> <span class="src">Lamartine, <em class="ref" title="Harmonies poétiques et religieuses">Harm. I, 10</em>.</span></cite>
+</li>
+<li id="var2">
+<b class="num">2</b>La Grève, place de Paris sur le bord de la Seine, à côté de l'hôtel de ville, où se faisaient les exécutions juridiques. <cite><q>Et pour ses factions il n'ira point en Grève</q>, <span class="src">Régnier, <em class="ref" title="Satires">Sat. X</em>.</span></cite> <cite><q>Bien que les spectacles de la Grève ne soient pas de fort belles choses à mander à une personne de votre qualité, je vous dirai pourtant par pure stérilité de nouvelles, que l'on pend et roue ici tous les jours de la semaine</q>, <span class="src">Scarron, <em class="ref">Œuv. t. I, p. 209</em>.</span></cite> <cite><q>À la fin tous ces jeux, que l'athéisme élève, Conduisent tristement le plaisant à la Grève</q>, <span class="src">Boileau, <em class="ref" title="L'art poétique">Art p. II</em>.</span></cite><p>Ange de Grève, voy. ANGE.</p>
+<p>Faire grève, se tenir sur la place de Grève en attendant de l'ouvrage, suivant l'habitude de plusieurs corps de métiers parisiens (en ce sens on met un petit g).</p>
+<p> <dfn>Par extension du sens de se tenir sur la place en attendant de l'ouvrage</dfn>, coalition d'ouvriers qui refusent de travailler, tant qu'on ne leur aura pas accordé certaines conditions qu'ils réclament. La grève des maçons, des charpentiers. Faire grève, se mettre en grève, abandonner les travaux en se liguant pour obtenir une augmentation de salaire.</p>
+</li>
+<li id="var3">
+<b class="num">3</b> <dfn>Terme de maçonnerie.</dfn> Le gros sable qui sert à faire du mortier.</li>
+<li id="var4">
+<b class="num">4</b>Nom donné aux bancs de sable qui se forment dans la Loire, et que le courant porte tantôt d'un côté, tantôt d'un autre.</li>
+</ul>
+<div class="r historique">
+<h3>HISTORIQUE</h3>
+<p>XII<sup>e</sup> s. <cite><q>Il orent un vadlet en la greve trové, à cui un cheval unt pur uit deniers lué</q>, <span class="src"> Th. le mart. 51.</span></cite></p>
+<p>XIII<sup>e</sup> s. <cite><q>Maint ribaus ont les cuers si baus, Portans sas de charbon en Grieve, Que la poine riens ne lor grieve</q>, <span class="src"> la Rose, 5065.</span></cite> <cite><q>Je voz donrai vingt tones de vin d'Auchoirre [Auxerre] por cent livres rendus en Greve à Paris</q>, <span class="src">Beaumanoir, <em class="ref" title="Les coutumes du Beauvoisis">XXXIV, 64</em>.</span></cite></p>
+<p>XV<sup>e</sup> s. <cite><q>Il y a très mauvais pays à chevaucher, pour les graves</q>, <span class="src">Froissart, <em class="ref" title="Chroniques">II, III, 11</em>.</span></cite></p>
+<p>XVI<sup>e</sup> s. <cite><q>Une autre fois il se promenoit sur la greve le long de la marine…</q>, <span class="src">Amyot, <em class="ref" title="Vies des hommes illustres, traduite de Plutarque">Thémist. 35</em>.</span></cite> <cite><q>Cette matiere gluante, de la quelle se bastit la grave et la pierre</q>, <span class="src">Montaigne, <em class="ref" title="Essais de Michel, seigneur de Montaigne">III, 219</em>.</span></cite> <cite><q>Fait cardinal en greve [mis à mort sur la place de Grève]</q>, <span class="src">Cotgrave <em class="ref" title="A Dictionarie of the french and english tongues">†</em></span></cite></p>
+</div>
+</div>
+<span class="attribution">Version électronique créée par François Gannaz - http://www.littre.org - licence Creative Commons Attribution</span>
+</div>
+</section>
+<section id="etymologie">
+<h2 id="1">Étymologie de « grève »</h2>
+<div id="littré">
+<div class="r etymologie">
+<p>Berry, <i>grave, gravier</i> ; génev. <i>grave</i>, endroit couvert de gravier ; provenç. <i>grava</i> ; vén. <i>grava</i>, lit d'un torrent ; grison, <i>grava, greva</i>, plaine de sable ; du radical <i>grav</i> ou <i>grau</i> qui se trouve dans le bas-breton <i>grouan</i>, sable, le kimry <i>grou</i>, et dans le sanscrit <i>grāvan</i>, pierre.</p>
+</div>
+<span class="attribution">Version électronique créée par François Gannaz - http://www.littre.org - licence Creative Commons Attribution</span>
+</div>
+<br>
+<div id="wiktionnaire">
+<dl>
+<dd>
+<span class="term"><i>(<span class="texte">Nom commun 1</span>)</i></span> De l’ancien français <i><bdi lang="fro" class="lang-fro"><a href="/dictionnaire/definition/grave" title="Définition de grave">grave</a></bdi></i>, <bdi lang="fro" class="lang-fro"><a href="/dictionnaire/definition/greve-161241" title="Définition de greve"><i>greve</i></a></bdi>, du bas latin <abbr title="Forme reconstruite">*</abbr><i>grava</i> (« sable, gravier »), probablement d’origine gauloise. Ce mot d’ancien français préserve deux significations distinctes : 1) une formation rocheuse de galets roulés, de graviers ou de sable, éventuellement déplaçable pour aménager une voie ou assécher une route 2) une vaste étendue, plage ou lande, au soubassement composé principalement de ces géo-matériaux. Ainsi par extension le terme apparaît dans la micro-toponymie des plages de sable, des landes ou des dunes sableuses, des successions de terrasses aux sols graveleux (les Graves en Gironde). Il n’est pas exclu que ces formations plus ou moins imposantes soient aussi influencées par le verbe ancien français <bdi lang="fro" class="lang-fro"><a href="/dictionnaire/definition/graver" title="Définition de graver"><i>graver</i></a></bdi>, dans son sens second de « gravir » (le premier sens renvoyant à un déplacement ou enlèvement de matière, par exemple ” graver la cire »).</dd>
+<dd>
+<span class="term"><i>(<span class="texte">Nom commun 2</span>)</i></span> Première hypothèse <span class="date"><i>(<span class="texte">1805</span>)</i></span> : de <i><a href="/dictionnaire/definition/faire-greve" title="Définition de faire grève">faire grève</a></i>, se tenir sur la place de Grève en attendant du travail, près de l’Hôtel de Ville à Paris, de l’ancien français <i><bdi lang="fro" class="lang-fro"><a href="/dictionnaire/definition/greve-161241" title="Définition de greve">greve</a></bdi></i>. Deuxième hypothèse : de formes dialectales de l’ancien français <bdi lang="fro" class="lang-fro"><i>grieve</i></bdi>, du latin populaire <bdi lang="la" class="lang-la"><i>grevis</i></bdi> (« conflit, dommage ») ayant aussi engendré l’ancien français <bdi lang="fro" class="lang-fro"><a href="/dictionnaire/definition/grief" title="Définition de grief"><i>grief</i></a></bdi>. Notons que <i>grevis</i> est la forme altérée de l’adjectif latin classique <bdi lang="la" class="lang-la"><i>gravis</i></bdi> (« lourd, pondéreux »). Ce dernier adjectif peut qualifier le transport des matériaux décrits par l’ancien français <i>grave</i> ou <i>grève</i>, ci-dessus.</dd>
+<dd>
+<span class="term"><i>(<span class="texte">Nom 3</span>)</i></span> <span class="siècle"><i>(<abbr title="13"><small>XIII</small></abbr><sup style="font-size:83%;line-height:1">e</sup> siècle)</i></span> .</dd>
+</dl>
+<span class="attribution">Wiktionnaire - licence Creative Commons attribution partage à l’identique 3.0</span>
+</div>
+<br>
+</section>
+<div class='ad-video-content'>
+
+<div id='div-gpt-ad-1407836166419-0'>
+<script type="205780f7a9ea73dea297baf7-text/javascript">
+					if (window.innerWidth >= 960) {
+						googletag.cmd.push(function() {
+							googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_640x480_1', [640, 480], 'div-gpt-ad-1407836166419-0').addService(googletag.pubads());
+							googletag.display('div-gpt-ad-1407836166419-0');
+						});
+					}
+					if (window.innerWidth < 960) {
+						googletag.cmd.push(function() {
+							googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_m_300x250_3', [300, 250], 'div-gpt-ad-1407836166419-0').addService(googletag.pubads());
+							
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					}
+				</script>
+</div>
+</div>
+<section id="phonetique">
+<h2 id="2">Phonétique du mot « grève »</h2>
+<div>
+<table>
+<thead>
+<tr>
+<th>Mot</th>
+<th>Phonétique (Alphabet Phonétique International)</th>
+<th>Prononciation</th>
+</thead>
+<tbody>
+<tr>
+<td>grève</td>
+<td>grɛv</td>
+<td style="text-align:center;">
+<audio id="player-phonetic" src="https://s3.eu-west-3.amazonaws.com/dictionnaire-prononciation/greve.mp3" type="audio/mp3"></audio>
+<span id="player-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('player-phonetic').play()" data-cf-modified-205780f7a9ea73dea297baf7-="">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="25" height="25" x="0" y="0" viewBox="0 0 320.001 320.001" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<path xmlns="http://www.w3.org/2000/svg" d="M295.84,146.049l-256-144c-4.96-2.784-11.008-2.72-15.904,0.128C19.008,5.057,16,10.305,16,16.001v288  c0,5.696,3.008,10.944,7.936,13.824c2.496,1.44,5.28,2.176,8.064,2.176c2.688,0,5.408-0.672,7.84-2.048l256-144  c5.024-2.848,8.16-8.16,8.16-13.952S300.864,148.897,295.84,146.049z" fill="#002d7d" data-original="#000000" style="" />
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="citations">
+<h2 id="3">Citations contenant le mot « grève »</h2>
+<ul>
+<li>
+<blockquote>
+Une <em>grève</em> est un mouvement organisé par des salariés pour réclamer le paiement des jours où ils n’ont pas travaillé.
+<cite>
+De Philippe Bouvard
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Les conducteurs de taxi parfois se mettent en <em>grève</em>. Ce sont des moments difficiles où l'on n'en trouve pas. Comme d'habitude.
+<cite>
+De Alain Schifres
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Je n'ai jamais très bien compris pourquoi une semaine de <em>grève</em> s'appelle une semaine d'action.
+<cite>
+De André Frossard / Les Pensées
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Dans <em>grève</em>, il y a rêve...
+<cite>
+De Anonyme
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Les <em>grève</em>s sont dues généralement à des détournements de mineurs.
+<cite>
+De Karl Martin
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Bouderie : une <em>grève</em> de gamins.
+<cite>
+De Jules Renard / Journal
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+C'est un drôle de pays, la France, où les négociations ont toujours lieu après le déclenchement des <em>grève</em>s et non avant.
+<cite>
+De Françoise Giroud / La Rumeur du monde
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+L'actualité. Ne rien choisir, tout prendre. S'étonner de tout. Insatiable curiosité, inlassable marée dont la vague laisse sur la <em>grève</em> les traces de faits, de noms, d'événements, trop vite effacés par la vague suivante.
+<cite>
+De Michel Field / Les Dossiers de l’Audiovisuel
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Une partie des personnels de l’Office polynésien de l’habitat (OPH) risque d’être en <em>grève</em> durant toute la journée du mercredi 15 juillet. En effet, aucune négociation n’est programmée ce lundi entre la direction de l’office et la confédération A tia i mua. Les deux parties avaient pourtant entamé des discussions vendredi, débouchant sur un accord de principe relatif à la réorganisation de l’établissement, l’une des deux revendications du syndicat.
+Mais, A tia i mua fixant le gel des embauches comme un préalable indispensable, la rencontre s’est terminée sans accord ni date pour une prochaine rencontre.
+« J’ai donné un accord sur la réorganisation des services, sur la recherche d’économies par synergie » a confirmé, lundi matin, Moana Blanchard, le directeur général de l’OPH.
+« Mais je me suis opposé au gel des embauches. De mon point de vue et de celui du conseil d’administration, il faut armer l’OPH de manière à répondre aux besoins que le gouvernement nous assignés. J’ai signé quand même pour 11 ou 12 milliards de francs de marchés, pour 323 logements en janvier 2021 et 511 de plus en 2022. J’ai besoin de l’effectif optimal ». 
+Le directeur assure que depuis qu’il est en poste, le taux d’activité de l’OPH a été multiplié par quatre ou cinq. Mais se déclare tout de même prêt à envisager un gel des embauches dans les années à venir.
+Le profil de recrutement correspondrait à un profil de trajectoire validé en août 2019 par le conseil d’administration, pour « aller dans le sens » des recommandations de la Chambre territoriale des comptes (CTC) qui préconise d’éviter les sureffectifs.
+« On leur a dit que s’ils veulent nous rencontrer, c’est aujourd’hui, et c’est à eux de nous appeler… » explique de son côté Yves Laugrost, trésorier général d’A tia i mua.
+Lequel convient que les syndicats sont souvent plus enclins à demander des embauches… plutôt que le gel ! « Notre souci, c’est que nous avons eu à gérer trois plans sociaux au cours des vingt dernières années. L’entreprise OPH n’est pas financièrement saine aujourd’hui et nous n’avons pas envie de devoir gérer un nouveau plan social dans trois ans. »
+A tia i mua reconnaît que l’OPH est en plein pic d’activité.
+Le syndicat comprend d’autant moins pourquoi certains agents seraient mis au placard.
+« Nous proposons qu’on leur donne du travail, plutôt que d’embaucher ! » déclare Yves Laugrost qui pense que l’OPH peut « faire aussi bien, voire mieux avec moins de personnel ».
+<cite>, Pas de rencontre ce lundi : risque de grève éclair, mercredi à l’OPH | La Dépêche de Tahiti</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Une nouvelle journée de <em>grève</em>, mobilisation et manifestations pour "la défense est l'amélioration" du système de santé,...
+<cite>Actusoins - infirmière, infirmier libéral actualité de la profession,  Mobilisation du 14 juillet : 6 organisations maintiennent leur appel à la grève et la manifestation - Actusoins actualité infirmière</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Une heure à peine après que son secrétaire général Philippe Martinez a été reçu par le nouveau premier ministre Jean Castex, la CGT a appelé jeudi 9 juillet à une journée de manifestation et de <em>grève</em> le 17 septembre prochain. Depuis la crise du coronavirus et le confinement généralisé, il n'y avait pas eu de journée interprofessionnelle de manifestation et de <em>grève</em>, mais des manifestations de soignants, contre les violences policières ou liées aux annonces de plans sociaux qui se succèdent depuis un mois.
+<cite>Le Figaro.fr, La CGT appelle à la manifestation et à la grève le 17 septembre</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Sauf que les hôteliers d’Ajaccio ont été les premiers en France, n’en ont pas fait tout un foin et surtout la Corse se vend sans problème et sans Booking en été. Faire la <em>grève</em> d’un canal qu’on aurait de toute façon réduit ou fermé ne porte pas à conséquence. C’est également sans compter sur la cohésion corse que les autres territoires français ont oublié : on s’y sert les coudes !
+<cite>TendanceHotellerie , Séduire ou faire grève, il faut choisir !  -  TendanceHotellerie </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Sur 40 personnes, une seule n’est pas gréviste. Cette <em>grève</em> reconductible demandait une revalorisation des emplois. « Plus de personnel, de formations et une augmentation des salaires de 10 % », précise Mélanie Morgan.
+<cite>www.paris-normandie.fr, Au Havre, la clinique privée Océane ferme ses portes en urgence après un mois de grève</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+L’Union israélienne des travailleurs sociaux a lancé une <em>grève</em> générale lundi dernier après que des négociations répétées avec le gouvernement se sont soldées par l’échec d’un changement de leurs conditions de travail.
+<cite>The Times of Israël, Des travailleurs sociaux en grève protestent devant le ministère des Finances | The Times of Israël</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Une <em>grève</em> est un mouvement organisé par des salariés pour réclamer le paiement des jours où ils n’ont pas travaillé.
+<cite>
+De Philippe Bouvard
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Les conducteurs de taxi parfois se mettent en <em>grève</em>. Ce sont des moments difficiles où l'on n'en trouve pas. Comme d'habitude.
+<cite>
+De Alain Schifres
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Je n'ai jamais très bien compris pourquoi une semaine de <em>grève</em> s'appelle une semaine d'action.
+<cite>
+De André Frossard / Les Pensées
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Dans <em>grève</em>, il y a rêve...
+<cite>
+De Anonyme
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Les <em>grève</em>s sont dues généralement à des détournements de mineurs.
+<cite>
+De Karl Martin
+, </cite>
+</blockquote>
+</li>
+</ul>
+</section>
+<section id="illustrations">
+<h2 id="4">Images d'illustration du mot « grève »</h2>
+<small>⚠️ Ces images proviennent de Unsplash et n'illustrent pas toujours parfaitement le mot en question.</small>
+<ul>
+<li>
+<img alt="Photo de grève par Matej Drha" loading="lazy" src="https://images.unsplash.com/photo-1565788185831-1756634385fe?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@m_d_adventures?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Matej Drha" target="_blank">Matej Drha</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Morning mist over vineyards in Tuscany, Italy.  " alt="Morning mist over vineyards in Tuscany, Italy.  " loading="lazy" src="https://images.unsplash.com/photo-1592511626743-19b02b4d11ff?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@kenshono?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Ken Shono" target="_blank">Ken Shono</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Matrimoni estivi passati, Mugello, Italy." alt="Matrimoni estivi passati, Mugello, Italy." loading="lazy" src="https://images.unsplash.com/photo-1537978383982-8d2224c8f4c5?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@mrsunflower94?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Matteo Vistocco" target="_blank">Matteo Vistocco</a> via Unsplash</a></span>
+</li>
+<li>
+<img alt="Photo de grève par Giulia Galante" loading="lazy" src="https://images.unsplash.com/photo-1588503229517-e879802d8ad0?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@giuliagalante?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Giulia Galante" target="_blank">Giulia Galante</a> via Unsplash</a></span>
+</li>
+<li>
+<img alt="Photo de grève par Daniela Turcanu" loading="lazy" src="https://images.unsplash.com/photo-1527359444784-0aad1a64667d?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@protopopica?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Daniela Turcanu" target="_blank">Daniela Turcanu</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Early morning mist in Tuscany, Italy" alt="Early morning mist in Tuscany, Italy" loading="lazy" src="https://images.unsplash.com/photo-1592511641893-391f0b11c192?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@kenshono?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Ken Shono" target="_blank">Ken Shono</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Student strike in front of the State Opera, Vienna, 1953" alt="Student strike in front of the State Opera, Vienna, 1953" loading="lazy" src="https://images.unsplash.com/photo-1576673195263-d3eec607eee8?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@austriannationallibrary?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Austrian National Library" target="_blank">Austrian National Library</a> via Unsplash</a></span>
+</li>
+<li>
+<img alt="Photo de grève par Yeo Khee" loading="lazy" src="https://images.unsplash.com/photo-1524871729950-c4e886edc1f9?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@yokeboy?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Yeo Khee" target="_blank">Yeo Khee</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Interesting how this is the most popular game at The Maryland Soccerplex.  The spring Orlando/Washington  game during the year that is sold out or has the highest attendance." alt="Interesting how this is the most popular game at The Maryland Soccerplex.  The spring Orlando/Washington  game during the year that is sold out or has the highest attendance." loading="lazy" src="https://images.unsplash.com/photo-1529884473405-cc8f6392dd38?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@jeffreyflin?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Jeffrey F Lin" target="_blank">Jeffrey F Lin</a> via Unsplash</a></span>
+</li>
+<li>
+<img alt="Photo de grève par Johannes Plenio" loading="lazy" src="https://images.unsplash.com/photo-1498595707991-4fc87268b184?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@jplenio?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Johannes Plenio" target="_blank">Johannes Plenio</a> via Unsplash</a></span>
+</li>
+<li>
+<img alt="Photo de grève par Damon Lam" loading="lazy" src="https://images.unsplash.com/photo-1533922115281-16a28dffcc2e?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@dayday95?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Damon Lam" target="_blank">Damon Lam</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="An electric view from my window. " alt="An electric view from my window. " loading="lazy" src="https://images.unsplash.com/photo-1567445026630-8152c99e2cfa?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@marius_oprea?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Marius" target="_blank">Marius</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Student strike in front of the State Opera, Vienna, 1953" alt="Student strike in front of the State Opera, Vienna, 1953" loading="lazy" src="https://images.unsplash.com/photo-1576673195590-f700180ac5f6?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@austriannationallibrary?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Austrian National Library" target="_blank">Austrian National Library</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Student strike in Vienna. Demonstration train on the ring in front of the parliament. 1953" alt="Student strike in Vienna. Demonstration train on the ring in front of the parliament. 1953" loading="lazy" src="https://images.unsplash.com/photo-1576673195329-95e1bf281038?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@austriannationallibrary?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Austrian National Library" target="_blank">Austrian National Library</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="An isolated single cell thunderstorm with an amazing light show" alt="An isolated single cell thunderstorm with an amazing light show" loading="lazy" src="https://images.unsplash.com/photo-1574781481375-74a09eba71e1?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@noaa?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par NOAA" target="_blank">NOAA</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Global climate change strike - No Planet B - 09-20-2019" alt="Global climate change strike - No Planet B - 09-20-2019" loading="lazy" src="https://images.unsplash.com/photo-1569225034143-754335938607?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@markusspiske?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de grève par Markus Spiske" target="_blank">Markus Spiske</a> via Unsplash</a></span>
+</li>
+</ul>
+</section>
+<section id="traductions">
+<h2 id="5">Traductions du mot « grève »</h2>
+<div style="overflow-x:auto;">
+<table>
+<thead>
+<tr>
+<th>Langue</th>
+<th>Traduction</th>
+</thead>
+<tbody>
+<tr>
+<td>Anglais</td>
+<td>strike</td>
+</tr>
+<tr>
+<td>Espagnol</td>
+<td>huelga</td>
+</tr>
+<tr>
+<td>Italien</td>
+<td>sciopero</td>
+</tr>
+<tr>
+<td>Allemand</td>
+<td>streik</td>
+</tr>
+<tr>
+<td>Chinois</td>
+<td>罢工</td>
+</tr>
+<tr>
+<td>Arabe</td>
+<td>إضراب</td>
+</tr>
+<tr>
+<td>Portugais</td>
+<td>greve</td>
+</tr>
+<tr>
+<td>Russe</td>
+<td>наносить удар</td>
+</tr>
+<tr>
+<td>Japonais</td>
+<td>攻撃</td>
+</tr>
+<tr>
+<td>Basque</td>
+<td>greba</td>
+</tr>
+<tr>
+<td>Corse</td>
+<td>greva</td>
+</tr>
+</tbody>
+</table>
+</div>
+<span class="attribution">Source : Google Translate API</span>
+</section>
+<section id="synonymes">
+<h2 id="6">Synonymes de « grève »</h2>
+<ul class="carousel-syn-anto">
+<li>
+<a title="consulter la définition de littoral" href="/dictionnaire/definition/littoral">littoral</a>
+</li>
+<li>
+<a title="consulter la définition de rivage" href="/dictionnaire/definition/rivage">rivage</a>
+</li>
+<li>
+interruption du travail
+</li>
+<li>
+<a title="consulter la définition de groize" href="/dictionnaire/definition/groize">groize</a>
+</li>
+<li>
+<a title="consulter la définition de débrayage" href="/dictionnaire/definition/debrayage">débrayage</a>
+</li>
+<li>
+<a title="consulter la définition de lock-out" href="/dictionnaire/definition/lock-out">lock-out</a>
+</li>
+<li>
+<a title="consulter la définition de rive" href="/dictionnaire/definition/rive">rive</a>
+</li>
+<li>
+<a title="consulter la définition de lais" href="/dictionnaire/definition/lais">lais</a>
+</li>
+<li>
+côte
+</li>
+<li>
+<a title="consulter la définition de plage" href="/dictionnaire/definition/plage">plage</a>
+</li>
+<li>
+<a title="consulter la définition de bord" href="/dictionnaire/definition/bord">bord</a>
+</li>
+<li>
+<a title="consulter la définition de cessation" href="/dictionnaire/definition/cessation">cessation</a>
+</li>
+</ul>
+<span class="attribution">
+Source : <a title="synonymes de grève" target="_blank" href="https://lebonsynonyme.fr/synonyme/grève">synonymes de grève sur lebonsynonyme.fr</a>
+</span>
+</section>
+<section id="antonymes">
+<h2 id="7">Antonymes de « grève »</h2>
+<ul class="carousel-syn-anto">
+<li>
+<a title="consulter la définition de affranchir" href="/dictionnaire/definition/affranchir">affranchir</a>
+</li>
+<li>
+<a title="consulter la définition de aider" href="/dictionnaire/definition/aider">aider</a>
+</li>
+<li>
+<a title="consulter la définition de alléger" href="/dictionnaire/definition/alleger">alléger</a>
+</li>
+<li>
+<a title="consulter la définition de assister" href="/dictionnaire/definition/assister">assister</a>
+</li>
+<li>
+<a title="consulter la définition de décharger" href="/dictionnaire/definition/decharger">décharger</a>
+</li>
+<li>
+<a title="consulter la définition de dégrever" href="/dictionnaire/definition/degrever">dégrever</a>
+</li>
+<li>
+<a title="consulter la définition de exonérer" href="/dictionnaire/definition/exonerer">exonérer</a>
+</li>
+</ul>
+</section>
+<section id="scrabble">
+<h2 id="8">Combien de points fait le mot grève au Scrabble ?</h2>
+<p>Nombre de points du mot grève au scrabble : <strong>8 points</strong></p>
+</section>
+</article>
+</div>
+<aside>
+<div>
+<div class="sticky">
+
+<div style="min-height:250px;width:300px;padding-top:10px">
+<div id='div-gpt-ad-1407836178797-0'>
+<script type="205780f7a9ea73dea297baf7-text/javascript">
+								if (window.innerWidth >= 960) {
+									googletag.cmd.push(function() {
+										googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_300x250_1', [300, 250], 'div-gpt-ad-1407836178797-0').addService(googletag.pubads());
+									googletag.display('div-gpt-ad-1407836178797-0');
+									});
+								}
+							</script>
+</div>
+</div>
+<div>
+<div id="conjugaison-top">
+<h4>Autres langues</h4>
+<ul id="conjugaison-ul-declinaisons">
+<li><a title="Traductions de grève en anglais" data-turbolinks="false" href="/dictionnaire/francais-anglais/greve">Traductions de grève en anglais</a></li>
+<li><a title="Translations of strike in French" data-turbolinks="false" href="/dictionnaire/english-french/strike">Translations of strike in French</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="skyscraper-ad">
+<div class="sticky">
+<div id='div-gpt-ad-1407836168668-0'>
+<script type="205780f7a9ea73dea297baf7-text/javascript">
+							if (window.innerWidth >= 960) {
+								googletag.cmd.push(function() {
+									googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_300x600_1', [[300, 600], [160, 600], [300, 250]], 'div-gpt-ad-1407836168668-0').addService(googletag.pubads());
+									googletag.display('div-gpt-ad-1407836168668-0');
+								});
+							}
+						</script>
+</div>
+</div>
+</div>
+</aside>
+</div>
+<div id="after_article">
+</div>
+<footer>
+<div id="footer-container">
+<div id="alphabet_words_container">
+<h4>Classement par ordre alphabétique des définitions des mots français</h4>
+<ul>
+<li><a title="Définitions des mots français commençant par a" href="/dictionnaire/mots-commencant-par-a">A</a></li>
+<li><a title="Définitions des mots français commençant par b" href="/dictionnaire/mots-commencant-par-b">B</a></li>
+<li><a title="Définitions des mots français commençant par c" href="/dictionnaire/mots-commencant-par-c">C</a></li>
+<li><a title="Définitions des mots français commençant par d" href="/dictionnaire/mots-commencant-par-d">D</a></li>
+<li><a title="Définitions des mots français commençant par e" href="/dictionnaire/mots-commencant-par-e">E</a></li>
+<li><a title="Définitions des mots français commençant par f" href="/dictionnaire/mots-commencant-par-f">F</a></li>
+<li><a title="Définitions des mots français commençant par g" href="/dictionnaire/mots-commencant-par-g">G</a></li>
+<li><a title="Définitions des mots français commençant par h" href="/dictionnaire/mots-commencant-par-h">H</a></li>
+<li><a title="Définitions des mots français commençant par i" href="/dictionnaire/mots-commencant-par-i">I</a></li>
+<li><a title="Définitions des mots français commençant par j" href="/dictionnaire/mots-commencant-par-j">J</a></li>
+<li><a title="Définitions des mots français commençant par k" href="/dictionnaire/mots-commencant-par-k">K</a></li>
+<li><a title="Définitions des mots français commençant par l" href="/dictionnaire/mots-commencant-par-l">L</a></li>
+<li><a title="Définitions des mots français commençant par m" href="/dictionnaire/mots-commencant-par-m">M</a></li>
+<li><a title="Définitions des mots français commençant par n" href="/dictionnaire/mots-commencant-par-n">N</a></li>
+<li><a title="Définitions des mots français commençant par o" href="/dictionnaire/mots-commencant-par-o">O</a></li>
+<li><a title="Définitions des mots français commençant par p" href="/dictionnaire/mots-commencant-par-p">P</a></li>
+<li><a title="Définitions des mots français commençant par q" href="/dictionnaire/mots-commencant-par-q">Q</a></li>
+<li><a title="Définitions des mots français commençant par r" href="/dictionnaire/mots-commencant-par-r">R</a></li>
+<li><a title="Définitions des mots français commençant par s" href="/dictionnaire/mots-commencant-par-s">S</a></li>
+<li><a title="Définitions des mots français commençant par t" href="/dictionnaire/mots-commencant-par-t">T</a></li>
+<li><a title="Définitions des mots français commençant par u" href="/dictionnaire/mots-commencant-par-u">U</a></li>
+<li><a title="Définitions des mots français commençant par v" href="/dictionnaire/mots-commencant-par-v">V</a></li>
+<li><a title="Définitions des mots français commençant par w" href="/dictionnaire/mots-commencant-par-w">W</a></li>
+<li><a title="Définitions des mots français commençant par x" href="/dictionnaire/mots-commencant-par-x">X</a></li>
+<li><a title="Définitions des mots français commençant par y" href="/dictionnaire/mots-commencant-par-y">Y</a></li>
+<li><a title="Définitions des mots français commençant par z" href="/dictionnaire/mots-commencant-par-z">Z</a></li>
+</ul>
+</div>
+<p>Définition de grèveprésentée par lalanguefrancaise.com - Ces définitions du mot grève sont données à titre indicatif et proviennent de dictionnaires libres de droits. Les informations complémentaires relatives au mot grève sont éditées par l’équipe éditoriale de lalanguefrancaise.com</p>
+<p>Ce mot fait partie de la catégorie des <a title="Mots français de 5 lettres" href="/dictionnaire/mots-de-5-lettres">mots français de 5 lettres</a>.</p>
+<div id="footer-sections-container">
+<div>
+<h4>La langue française</h4>
+<ul>
+<li><a href="/a-propos">À propos</a></li>
+<li><a href="/cgu">Conditions générales d’utilisation</a></li>
+<li><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
+<li><a href="/espace-annonceurs">Espace annonceurs</a></li>
+<li><a href="/cdn-cgi/l/email-protection#e784888993868493a78b868b86898092828195868984868e9482c984888a">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4>Plus de services</h4>
+<ul>
+<li><a href="https://www.lalanguefrancaise.com/abonnements">Abonnements</a></li>
+<li><a href="https://formation.lalanguefrancaise.com">Formation orthographe</a></li>
+<li><a href="https://lebonsynonyme.fr/">Synonymes</a></li>
+<li><a href="https://www.lalanguefrancaise.com/dictionnaire">Dictionnaire</a></li>
+<li><a href="https://www.lalanguefrancaise.com/conjugaison">Conjugaison</a></li>
+</ul>
+</div>
+<div>
+<h4>Ces articles vont vous intéresser…</h4>
+<ul>
+<li><a href="https://www.lalanguefrancaise.com/orthographe/orthographe-40-regles-de-base">Les 40 règles de base de l&#39;orthographe française</a></li>
+<li><a href="https://www.lalanguefrancaise.com/articles/formule-de-politesse-email-lettre-de-motivation">51 formules de politesse pour vos emails, lettres et lettres de motivation</a></li>
+<li><a href="https://www.lalanguefrancaise.com/articles/ecrire-majuscules-a-e-i-o-u-a-e-i-o-u-a-ae-ae-c-e-e-oe-oe-u-extension-chrome">Écrire les majuscules Â, Ê, Î, Ô, Û, Ä, Ë, Ï, Ö, Ü, À, Æ, æ, Ç, É, È, Œ, œ, Ù</a></li>
+<li><a href="https://www.lalanguefrancaise.com/linguistique/figures-de-style-guide-complet">Figures de style : le guide complet</a></li>
+<li><a href="https://www.lalanguefrancaise.com/articles/correcteur-orthographe">Correcteur d&#39;orthographe : comparatif complet des meilleures solutions</a></li>
+<li><a href="https://www.lalanguefrancaise.com/articles/alphabet-francais">L’alphabet français : liste des lettres, prononciation et histoire</a></li>
+</ul>
+</div>
+</div>
+<p id="bottom-footer-p"><a href="https://www.lalanguefrancaise.com">La langue française</a> ©&nbsp;2022</p>
+</div>
+</footer>
+<div id="bottom_navbar">
+<div data-controller="scroll-progress" id="scroll-progress"></div>
+<div id="bottom_navbar_container">
+<div id="bottom_navbar_title">
+<p>Grève</p>
+</div>
+<div>
+<p><a href="/dictionnaire/definition/greve#sommaire">Retour au sommaire ➦</a></p>
+</div>
+<div id="bottom_navbar_social">
+<span>Partager</span>
+<a title="Partager par courriel" href="/cdn-cgi/l/email-protection#e5da9690878f808691d8a1264c838c8b8c918c8a8b96c58190c5888a91c58297264d9380c3848895de878a819cd8b38a8c868cc5898096c581264c838c8b8c918c8a8b96c58190c5888a91c58297264d9380c0d5a1c0d5a4c0d5a1c0d5a48d91919596dfcaca929292cb898489848b8290808397848b86848c9680cb868a88ca818c86918c8a8b8b848c9780ca8180838c8b8c918c8a8bca8297809380">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="205780f7a9ea73dea297baf7-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script>
+<g xmlns="http://www.w3.org/2000/svg">
+<g>
+<g>
+<path d="M10.688,95.156C80.958,154.667,204.26,259.365,240.5,292.01c4.865,4.406,10.083,6.646,15.5,6.646     c5.406,0,10.615-2.219,15.469-6.604c36.271-32.677,159.573-137.385,229.844-196.896c4.375-3.698,5.042-10.198,1.5-14.719     C494.625,69.99,482.417,64,469.333,64H42.667c-13.083,0-25.292,5.99-33.479,16.438C5.646,84.958,6.313,91.458,10.688,95.156z" fill="currentColor" data-original="#000000" style="" class="" />
+<path d="M505.813,127.406c-3.781-1.76-8.229-1.146-11.375,1.542C416.51,195.01,317.052,279.688,285.76,307.885     c-17.563,15.854-41.938,15.854-59.542-0.021c-33.354-30.052-145.042-125-208.656-178.917c-3.167-2.688-7.625-3.281-11.375-1.542     C2.417,129.156,0,132.927,0,137.083v268.25C0,428.865,19.135,448,42.667,448h426.667C492.865,448,512,428.865,512,405.333     v-268.25C512,132.927,509.583,129.146,505.813,127.406z" fill="currentColor" data-original="#000000" style="" class="" />
+</g>
+</g>
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>
+</a>
+<a title="Partager sur Facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.lalanguefrancaise.com/dictionnaire/definition/greve&amp;display=popup">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="205780f7a9ea73dea297baf7-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" fill="currentColor" data-original="#000000" style="" /></g></svg>
+</a>
+<a title="Partager sur Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=https://www.lalanguefrancaise.com/dictionnaire/definition/greve&amp;via=LLfrancaise&amp;text=Définitions du mot grève">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="205780f7a9ea73dea297baf7-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z" fill="currentColor" data-original="#000000" style="" /></g></svg>
+</a>
+</div>
+<div id="signup-bottom-navbar">
+<a title="S&#39;abonner" class="cta" href="/utilisateurs/inscription">S&#39;abonner</a>
+</div>
+</div>
+</div>
+<script src="https://cdn.by.wonderpush.com/sdk/1.1/wonderpush-loader.min.js" async type="205780f7a9ea73dea297baf7-text/javascript"></script>
+<script type="205780f7a9ea73dea297baf7-text/javascript">
+window.WonderPush = window.WonderPush || [];
+WonderPush.push(["init", {
+    webKey: "9084c34e4e1e3506494f0263918579bbe900225a34159d2b40a4ec8e30915a9f",
+}]);
+</script>
+<script data-cfasync="false">
+			(function(W,i,s,e,P,o,p){W['WisePopsObject']=P;W[P]=W[P]||function(){(W[P].q=W[P].q||[]).push(arguments)},W[P].l=1*new Date();o=i.createElement(s),p=i.getElementsByTagName(s)[0];o.defer=1;o.src=e;p.parentNode.insertBefore(o,p)})(window,document,'script','//loader.wisepops.com/get-loader.js?v=1&site=LLnHuMDJEn','wisepops');
+			</script>
+</body>
+</html>
