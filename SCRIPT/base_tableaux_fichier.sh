@@ -12,9 +12,9 @@
 fichier_urls=$1 # le fichier d'URL en entrée
 fichier_tableau=$2 # le fichier HTML en sortie
 
-if [[ $# -ne 2 ]]
+if [[ $# -ne 3 ]]
 then
-	echo "Ce programme demande exactement deux arguments."
+	echo "Ce programme demande exactement trois arguments."
 	exit
 fi
 
