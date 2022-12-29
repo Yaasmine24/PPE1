@@ -16,7 +16,7 @@ Update = j'ai cloné mon git une nouvelle fois puis j'ai réessayé de push et �
 
 →12/22 : J'ai compris qu'en fait je n'avais pas correctement pull ce qu'il y avait sur mon git et du coup quand j'ai push j'ai crée deux branches divergentes. Je n'oublierai plus de pull!
 
-→12/22 : J'ai récupérer toutes mes urls. J'en ai plus que 50.
+→12/22 : J'ai récupéré toutes mes urls. J'en ai plus que 50.
 
 →12/22 : J'ai fait mes exercices et j'ai réussi à faire mon tableau avec mes urls. J'ai pu voir que certaines urls ne fonctionnaient pas donc je suis passé de plus que 50 à moins de 50. J'ai dû en trouver d'autres (toujours aussi pertinentes).
 
