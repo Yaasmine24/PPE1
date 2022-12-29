@@ -14,4 +14,4 @@
 #Aujourd'hui, j'ai écrit le contenu de notre page d'accueil. Elle contient la présentation de notre mot : sa signification, le choix du mot, le choix des langues, le contexte de ce mot selon le pays et la problématique. Nous voulions aussi mettre l'étymologie du mot dans chaque langue mais finalement nous n'avons pas trouvé ça pertinents. Aussi, j'ai galéré à comprendre css et je n'arrive toujours pas à faire des petits blocs et à les mettre où je veux dans la page. Je n'arrive pas non plus à redimensionner la largeur d'une image sur html : normalement c'est avec width=... mais ça ne fonctionne pas!
 #Aujourd'hui, j'ai fait des graphes sur itrameur. Je suis en plein processus de compréhension, j'explore Itrameur.
 #On a essayé de mettre une image provenant de notre ordi et non d'un site et nous avons réussi. On a du mettre l'image sur le git et ensuite copier le lien de l'image depuis le git et ensuite le mettre dans le code html. Ainsi, on a pu mettre nos captures d'écran.
-
+#J'ai ajouté le dossier images sur le groupe pour pouvoir mettre nos captures d'écran dedans
