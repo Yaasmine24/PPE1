@@ -1,4 +1,4 @@
-Journal de bord du projet encadré
+## Journal de bord du projet encadré
 
 → 10/22 : Travail sur git et manipulation de fichiers
 
