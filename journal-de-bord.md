@@ -29,3 +29,16 @@ Update = j'ai cloné mon git une nouvelle fois puis j'ai réessayé de push et �
 →12/22 : On a essayé de mettre une image provenant de notre ordi et non d'un site et nous avons réussi. On a dû mettre l'image sur le git et ensuite copier le lien de l'image depuis le git et ensuite le mettre dans le code html. Ainsi, on a pu mettre nos captures d'écran.
  
 →12/22 : J'ai ajouté le dossier images sur le groupe pour pouvoir mettre nos captures d'écran dedans
+
+→01/22 : Je fais actuellement l'analyse sur iTrameur. JE N'ARRIVE PAS A FAIRE DE STOP LIST!
+
+→01/22 : Toujours sur iTrameur, et quelques détails à regler sur les pages web du groupe. 
+
+→01/22 : J'ai mis à jour mon git perso.
+
+→01/22 : Ce fut une galère mais le site est fini et il est stylé. Encore quelques détails à régler... 
+
+
+
+
+
