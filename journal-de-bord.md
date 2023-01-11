@@ -6,9 +6,10 @@
 
 → 11/22 : Aujourd'hui j'ai appris à afficher un tableau en html
 
-→ 11/22 : Je n'arrive pas à faire un tag sur mon dernier commit : ils me disent qu'il y'a trop d'éléments
+→ 11/22 : Je n'arrive pas à faire un tag sur mon dernier commit : ils me disent qu'il y'a trop d'éléments.
+Update= c'est bon.
 
-→ 11/22 : Ajout de ma liste d'url sur le git du groupe
+→ 11/22 : Ajout de ma liste d'url sur le git du groupe.
 
 →11/22 : Je n'arrive pas à remettre l'index html sur mon git. 
 Update = Maintenant, je n'arrive plus à "push" quoi que ce soit sur mon git(même mon journal de bord). Lorsque je push il me disent : "Vous avez des branches divergentes et vous devez spécifier comment les réconcilier" ou "Les mises à jour ont été rejetées car la pointe de la branche courante est derrière".
@@ -30,7 +31,9 @@ Update = j'ai cloné mon git une nouvelle fois puis j'ai réessayé de push et �
  
 →12/22 : J'ai ajouté le dossier images sur le groupe pour pouvoir mettre nos captures d'écran dedans
 
-→01/22 : Je fais actuellement l'analyse sur iTrameur. JE N'ARRIVE PAS A FAIRE DE STOP LIST!
+→01/22 : Je fais actuellement l'analyse sur iTrameur. Je fais toutes les langues pour qu'on puisse avoir une analyse qui ait du sens, il était préférable qu'une personne s'en charge pour qu'il y ait une fluidité entre les différentes langues et ce qu'on recherchait. Aussi pour pouvoir répondre à notre problématique.
+
+→01/22 : J'ai fait des graphes simples (donc avec un pôle donné) mais aussi des graphes avec des expressions régulières. J'ai observé les concordances et les dicos sur iTrameur, mais nous n'avons pas trouvé intéressant de le mentionner dans l'analyse car cela n'apporterait pas de nouvelle informations mais appuyait les idées. De plus, nous avions déjà les concordances,etc.. et les contextes (avec lesquelles nous avons fait les analyses iTrameur).
 
 →01/22 : Toujours sur iTrameur, et quelques détails à regler sur les pages web du groupe. 
 
